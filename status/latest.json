@@ -1,0 +1,52 @@
+{
+  "job": "OriON daily",
+  "updated_at_utc": "2026-01-27T22:35:11Z",
+  "host": "DESKTOP-EA3H4CR",
+  "github": {
+    "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
+    "strategies_sha": "218f325cefce",
+    "strategies_updated": false,
+    "strategies_error": null,
+    "results_repo": "https://github.com/bohdan6992/OriON-stats.git",
+    "results_commit": null,
+    "results_pushed": null,
+    "results_error": null,
+    "results_layout": "root",
+    "results_subdir": ""
+  },
+  "datum_api": {
+    "ok": true,
+    "config_path": "C:\\Users\\sergi\\OneDrive\\Рабочий стол\\ORION_MAIN\\datum_api_config.json",
+    "credentials_path": "C:\\Users\\sergi\\OneDrive\\Рабочий стол\\ORION_MAIN\\datum_api_credentials.json",
+    "staged_config_path": "C:\\Users\\sergi\\OneDrive\\Рабочий стол\\ORION_MAIN\\OriON\\datum_api_config.json",
+    "staged_credentials_path": "C:\\Users\\sergi\\OneDrive\\Рабочий стол\\ORION_MAIN\\OriON\\datum_api_credentials.json",
+    "error": null
+  },
+  "cracen": {
+    "ok": true,
+    "final_path": "C:\\Users\\sergi\\OneDrive\\Рабочий стол\\ORION_MAIN\\OriON\\CRACEN\\final.parquet",
+    "error": "skipped by ops config"
+  },
+  "strategies": {
+    "arbitrage": {
+      "ok": true,
+      "duration_sec": 800.5502262115479
+    },
+    "chrono": {
+      "ok": true,
+      "duration_sec": 2.865807294845581
+    },
+    "opendoor": {
+      "ok": true,
+      "duration_sec": 3.197409152984619
+    },
+    "couple": {
+      "ok": true,
+      "duration_sec": 3.118520736694336
+    }
+  },
+  "durations_sec": {
+    "total": 810.3223261833191
+  },
+  "fatal_error": null
+}
