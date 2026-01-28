@@ -1,11 +1,11 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-01-28T13:12:39Z**
+- Updated (UTC): **2026-01-28T16:19:57Z**
 - Host: **DESKTOP-EA3H4CR**
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
-- strategies sha: `d5f594202af7`
+- strategies sha: `73f0f7c65b0c`
 - strategies updated: **True**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
@@ -24,7 +24,7 @@
 - final: `C:\Users\sergi\OneDrive\Рабочий стол\ORION_MAIN\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **arbitrage** (783s)
-- ✅ **chrono** (3s)
+- ✅ **arbitrage** (166s)
+- ✅ **chrono** (2s)
 - ✅ **opendoor** (2s)
-- ✅ **couple** (2s)
+- ✅ **couple** (3s)
