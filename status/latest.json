@@ -1,6 +1,6 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-01-28T18:17:54Z",
+  "updated_at_utc": "2026-01-28T18:32:27Z",
   "host": "MALIAR-B",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
@@ -30,23 +30,23 @@
   "strategies": {
     "arbitrage": {
       "ok": true,
-      "duration_sec": 203.38453269004822
+      "duration_sec": 205.24493026733398
     },
     "chrono": {
       "ok": true,
-      "duration_sec": 1.9220027923583984
+      "duration_sec": 1.8947527408599854
     },
     "opendoor": {
       "ok": true,
-      "duration_sec": 1.9305765628814697
+      "duration_sec": 1.9111530780792236
     },
     "couple": {
       "ok": true,
-      "duration_sec": 1.9161653518676758
+      "duration_sec": 1.9334194660186768
     }
   },
   "durations_sec": {
-    "total": 209.71139359474182
+    "total": 211.49119877815247
   },
   "fatal_error": null
 }
