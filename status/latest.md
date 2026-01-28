@@ -1,12 +1,12 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-01-27T23:15:51Z**
+- Updated (UTC): **2026-01-28T13:12:39Z**
 - Host: **DESKTOP-EA3H4CR**
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
-- strategies sha: `218f325cefce`
-- strategies updated: **False**
+- strategies sha: `d5f594202af7`
+- strategies updated: **True**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
 - results subdir: ``
@@ -26,5 +26,5 @@
 ## Strategies
 - ✅ **arbitrage** (783s)
 - ✅ **chrono** (3s)
-- ✅ **opendoor** (3s)
+- ✅ **opendoor** (2s)
 - ✅ **couple** (2s)
