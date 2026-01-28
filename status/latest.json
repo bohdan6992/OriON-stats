@@ -1,11 +1,11 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-01-28T16:19:57Z",
-  "host": "DESKTOP-EA3H4CR",
+  "updated_at_utc": "2026-01-28T17:51:40Z",
+  "host": "MALIAR-B",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
     "strategies_sha": "73f0f7c65b0c",
-    "strategies_updated": true,
+    "strategies_updated": false,
     "strategies_error": null,
     "results_repo": "https://github.com/bohdan6992/OriON-stats.git",
     "results_commit": null,
@@ -16,37 +16,37 @@
   },
   "datum_api": {
     "ok": true,
-    "config_path": "C:\\Users\\sergi\\OneDrive\\Рабочий стол\\ORION_MAIN\\datum_api_config.json",
-    "credentials_path": "C:\\Users\\sergi\\OneDrive\\Рабочий стол\\ORION_MAIN\\datum_api_credentials.json",
-    "staged_config_path": "C:\\Users\\sergi\\OneDrive\\Рабочий стол\\ORION_MAIN\\OriON\\datum_api_config.json",
-    "staged_credentials_path": "C:\\Users\\sergi\\OneDrive\\Рабочий стол\\ORION_MAIN\\OriON\\datum_api_credentials.json",
+    "config_path": "C:\\datum-api-examples-main\\datum_api_config.json",
+    "credentials_path": "C:\\datum-api-examples-main\\datum_api_credentials.json",
+    "staged_config_path": "C:\\datum-api-examples-main\\OriON\\datum_api_config.json",
+    "staged_credentials_path": "C:\\datum-api-examples-main\\OriON\\datum_api_credentials.json",
     "error": null
   },
   "cracen": {
     "ok": true,
-    "final_path": "C:\\Users\\sergi\\OneDrive\\Рабочий стол\\ORION_MAIN\\OriON\\CRACEN\\final.parquet",
+    "final_path": "C:\\datum-api-examples-main\\OriON\\CRACEN\\final.parquet",
     "error": "skipped by ops config"
   },
   "strategies": {
     "arbitrage": {
       "ok": true,
-      "duration_sec": 166.6900098323822
+      "duration_sec": 96.35718369483948
     },
     "chrono": {
       "ok": true,
-      "duration_sec": 2.72464656829834
+      "duration_sec": 1.834869623184204
     },
     "opendoor": {
       "ok": true,
-      "duration_sec": 2.6708321571350098
+      "duration_sec": 1.8632903099060059
     },
     "couple": {
       "ok": true,
-      "duration_sec": 3.1082406044006348
+      "duration_sec": 1.8638710975646973
     }
   },
   "durations_sec": {
-    "total": 177.125985622406
+    "total": 102.50795292854309
   },
   "fatal_error": null
 }

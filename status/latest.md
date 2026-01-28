@@ -1,30 +1,30 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-01-28T16:19:57Z**
-- Host: **DESKTOP-EA3H4CR**
+- Updated (UTC): **2026-01-28T17:51:40Z**
+- Host: **MALIAR-B**
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
 - strategies sha: `73f0f7c65b0c`
-- strategies updated: **True**
+- strategies updated: **False**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
 - results subdir: ``
 
 ## Datum API
 - ok: **True**
-- config: `C:\Users\sergi\OneDrive\Рабочий стол\ORION_MAIN\datum_api_config.json`
-- credentials: `C:\Users\sergi\OneDrive\Рабочий стол\ORION_MAIN\datum_api_credentials.json`
-- staged config: `C:\Users\sergi\OneDrive\Рабочий стол\ORION_MAIN\OriON\datum_api_config.json`
-- staged credentials: `C:\Users\sergi\OneDrive\Рабочий стол\ORION_MAIN\OriON\datum_api_credentials.json`
+- config: `C:\datum-api-examples-main\datum_api_config.json`
+- credentials: `C:\datum-api-examples-main\datum_api_credentials.json`
+- staged config: `C:\datum-api-examples-main\OriON\datum_api_config.json`
+- staged credentials: `C:\datum-api-examples-main\OriON\datum_api_credentials.json`
 
 ## CRACEN
 - ok: **True**
 - error: `skipped by ops config`
-- final: `C:\Users\sergi\OneDrive\Рабочий стол\ORION_MAIN\OriON\CRACEN\final.parquet`
+- final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **arbitrage** (166s)
-- ✅ **chrono** (2s)
-- ✅ **opendoor** (2s)
-- ✅ **couple** (3s)
+- ✅ **arbitrage** (96s)
+- ✅ **chrono** (1s)
+- ✅ **opendoor** (1s)
+- ✅ **couple** (1s)
