@@ -1,7 +1,7 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-01-28T18:52:50Z",
-  "host": "MALIAR-B",
+  "updated_at_utc": "2026-01-30T18:08:08Z",
+  "host": "SHAKIROV-S",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
     "strategies_sha": "73f0f7c65b0c",
@@ -25,28 +25,29 @@
   "cracen": {
     "ok": true,
     "final_path": "C:\\datum-api-examples-main\\OriON\\CRACEN\\final.parquet",
-    "error": "skipped by ops config"
+    "error": null
   },
   "strategies": {
     "arbitrage": {
       "ok": true,
-      "duration_sec": 210.38097882270813
+      "duration_sec": 307.9957871437073
     },
     "chrono": {
       "ok": true,
-      "duration_sec": 1.9652888774871826
+      "duration_sec": 2.391335964202881
     },
     "opendoor": {
       "ok": true,
-      "duration_sec": 2.1218063831329346
+      "duration_sec": 2.5510051250457764
     },
     "couple": {
       "ok": true,
-      "duration_sec": 2.1136910915374756
+      "duration_sec": 3.287594795227051
     }
   },
   "durations_sec": {
-    "total": 217.08303117752075
+    "cracen": 3296.5474174022675,
+    "total": 3613.7337231636047
   },
   "fatal_error": null
 }

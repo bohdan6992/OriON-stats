@@ -1,7 +1,7 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-01-28T18:52:50Z**
-- Host: **MALIAR-B**
+- Updated (UTC): **2026-01-30T18:08:08Z**
+- Host: **SHAKIROV-S**
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
@@ -20,11 +20,10 @@
 
 ## CRACEN
 - ok: **True**
-- error: `skipped by ops config`
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **arbitrage** (210s)
-- ✅ **chrono** (1s)
+- ✅ **arbitrage** (307s)
+- ✅ **chrono** (2s)
 - ✅ **opendoor** (2s)
-- ✅ **couple** (2s)
+- ✅ **couple** (3s)
