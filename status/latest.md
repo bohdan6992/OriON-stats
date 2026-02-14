@@ -1,6 +1,6 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-02-13T23:51:34Z**
+- Updated (UTC): **2026-02-14T23:51:25Z**
 - Host: **SHAKIROV-S**
 
 ## GitHub
@@ -23,7 +23,7 @@
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **arbitrage** (190s)
-- ✅ **chrono** (2s)
+- ✅ **arbitrage** (188s)
+- ✅ **chrono** (1s)
 - ✅ **opendoor** (2s)
-- ✅ **couple** (1s)
+- ✅ **couple** (2s)
