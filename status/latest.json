@@ -1,10 +1,10 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-02-26T19:42:52Z",
+  "updated_at_utc": "2026-02-27T00:11:25Z",
   "host": "SHAKIROV-S",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
-    "strategies_sha": "7b43e2b524ba",
+    "strategies_sha": "8d6a33cd896f",
     "strategies_updated": true,
     "strategies_error": null,
     "results_repo": "https://github.com/bohdan6992/OriON-stats.git",
@@ -30,25 +30,24 @@
   "strategies": {
     "arbitrage": {
       "ok": true,
-      "duration_sec": 443.2037172317505
+      "duration_sec": 217.505686044693
     },
     "chrono": {
       "ok": true,
-      "duration_sec": 2.0306551456451416
+      "duration_sec": 1.9963202476501465
     },
     "opendoor": {
-      "ok": false,
-      "duration_sec": 263.300008058548,
-      "error": "utput_dir, time_col, ticker_col, price_col, stack_col, bench_col, devsig_col, pre_from, pre_to, open_from, open_to, class_minutes, end_tolerance_minutes, min_move_abs, n_bins_1d, n_bins_2d, minRateTop, minTotalTop, peak_time_bin_minutes)\n    305     summary = rows[0]\n    306     for r in rows[1:]:\n--> 307         summary = summary.merge(r, on=ticker_col, how=\"outer\")\n    309     summary.to_csv(summary_path, index=False, mode=\"a\", header=False)\n    311 # =========================\n    312 # ===== JSONL WRITE =======\n    313 # =========================\n\nFile C:\\datum-api-examples-main\\OriON\\.venv\\lib\\site-packages\\pandas\\core\\frame.py:9843, in DataFrame.merge(self, right, how, on, left_on, right_on, left_index, right_index, sort, suffixes, copy, indicator, validate)\n   9824 @Substitution(\"\")\n   9825 @Appender(_merge_doc, indents=2)\n   9826 def merge(\n   (...)\n   9839     validate: str | None = None,\n   9840 ) -> DataFrame:\n   9841     from pandas.core.reshape.merge import merge\n-> 9843     return merge(\n   9844         self,\n   9845         right,\n   9846         how=how,\n   9847         on=on,\n   9848         left_on=left_on,\n   9849         right_on=right_on,\n   9850         left_index=left_index,\n   9851         right_index=right_index,\n   9852         sort=sort,\n   9853         suffixes=suffixes,\n   9854         copy=copy,\n   9855         indicator=indicator,\n   9856         validate=validate,\n   9857     )\n\nFile C:\\datum-api-examples-main\\OriON\\.venv\\lib\\site-packages\\pandas\\core\\reshape\\merge.py:162, in merge(left, right, how, on, left_on, right_on, left_index, right_index, sort, suffixes, copy, indicator, validate)\n    131 @Substitution(\"\\nleft : DataFrame or named Series\")\n    132 @Appender(_merge_doc, indents=0)\n    133 def merge(\n   (...)\n    146     validate: str | None = None,\n    147 ) -> DataFrame:\n    148     op = _MergeOperation(\n    149         left,\n    150         right,\n   (...)\n    160         validate=validate,\n    161     )\n--> 162     return op.get_result(copy=copy)\n\nFile C:\\datum-api-examples-main\\OriON\\.venv\\lib\\site-packages\\pandas\\core\\reshape\\merge.py:811, in _MergeOperation.get_result(self, copy)\n    807     self.left, self.right = self._indicator_pre_merge(self.left, self.right)\n    809 join_index, left_indexer, right_indexer = self._get_join_info()\n--> 811 result = self._reindex_and_concat(\n    812     join_index, left_indexer, right_indexer, copy=copy\n    813 )\n    814 result = result.__finalize__(self, method=self._merge_type)\n    816 if self.indicator:\n\nFile C:\\datum-api-examples-main\\OriON\\.venv\\lib\\site-packages\\pandas\\core\\reshape\\merge.py:763, in _MergeOperation._reindex_and_concat(self, join_index, left_indexer, right_indexer, copy)\n    760 left = self.left[:]\n    761 right = self.right[:]\n--> 763 llabels, rlabels = _items_overlap_with_suffix(\n    764     self.left._info_axis, self.right._info_axis, self.suffixes\n    765 )\n    767 if left_indexer is not None and not is_range_indexer(left_indexer, len(left)):\n    768     # Pinning the index here (and in the right code just below) is not\n    769     #  necessary, but makes the `.take` more performant if we have e.g.\n    770     #  a MultiIndex for left.index.\n    771     lmgr = left._mgr.reindex_indexer(\n    772         join_index,\n    773         left_indexer,\n   (...)\n    778         use_na_proxy=True,\n    779     )\n\nFile C:\\datum-api-examples-main\\OriON\\.venv\\lib\\site-packages\\pandas\\core\\reshape\\merge.py:2640, in _items_overlap_with_suffix(left, right, suffixes)\n   2638     dups.extend(rlabels[(rlabels.duplicated()) & (~right.duplicated())].tolist())\n   2639 if dups:\n-> 2640     raise MergeError(\n   2641         f\"Passing 'suffixes' which cause duplicate columns {set(dups)} is \"\n   2642         f\"not allowed.\",\n   2643     )\n   2645 return llabels, rlabels\n\nMergeError: Passing 'suffixes' which cause duplicate columns {'median_move_x', 'total_x', 'mean_stack_delta_x', 'up_x', 'down_x', 'mean_move_x', 'median_stack_delta_x'} is not allowed."
+      "ok": true,
+      "duration_sec": 129.72927355766296
     },
     "couple": {
       "ok": true,
-      "duration_sec": 2.519202470779419
+      "duration_sec": 2.4376516342163086
     }
   },
   "durations_sec": {
-    "cracen": 8165.123330593109,
-    "total": 8877.977654457092
+    "cracen": 3927.063158750534,
+    "total": 4280.263404369354
   },
   "fatal_error": null
 }
