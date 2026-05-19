@@ -1,16 +1,16 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-05-18T14:39:38Z**
+- Updated (UTC): **2026-05-19T10:29:22Z**
 - Host: **SHAKIROV-S**
 
 ## Run
 - phase: **finished**
 - notebook: `OpenDoor`
-- started: `2026-05-18T14:34:25Z`
-- elapsed: **34776.0s**
+- started: `2026-05-19T10:24:23Z`
+- elapsed: **19761.1s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_OpenDoor_out.ipynb`
 - out notebook size: `27502`
-- last output: `Executing: 100%|##########| 4/4 [05:11<00:00, 77.90s/cell]`
+- last output: `Executing: 100%|##########| 4/4 [04:58<00:00, 74.62s/cell]`
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
@@ -32,7 +32,7 @@
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (490s)
+- ✅ **ArbitRage** (491s)
 - ✅ **ChronoFlow** (2s)
 - ✅ **CoupleDating** (2s)
-- ✅ **OpenDoor** (312s)
+- ✅ **OpenDoor** (299s)
