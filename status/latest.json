@@ -1,6 +1,6 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-06-13T03:45:49Z",
+  "updated_at_utc": "2026-06-13T08:18:55Z",
   "host": "SHAKIROV-S",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
@@ -30,34 +30,34 @@
   "strategies": {
     "ArbitRage": {
       "ok": true,
-      "duration_sec": 367.96873927116394
+      "duration_sec": 368.33423590660095
     },
     "ChronoFlow": {
       "ok": true,
-      "duration_sec": 5.405168533325195
+      "duration_sec": 2.315899133682251
     },
     "CoupleDating": {
       "ok": true,
-      "duration_sec": 2.412224769592285
+      "duration_sec": 2.4116225242614746
     },
     "OpenDoor": {
       "ok": true,
-      "duration_sec": 245.51751494407654
+      "duration_sec": 249.74754452705383
     }
   },
   "durations_sec": {
-    "cracen": 11124.215634346008,
-    "total": 11746.258344173431
+    "cracen": 11309.579997062683,
+    "total": 11933.368437290192
   },
   "fatal_error": null,
   "run": {
     "phase": "finished",
     "current_notebook": "OpenDoor",
-    "started_at_utc": "2026-06-13T03:41:44Z",
-    "elapsed_sec": 11746.3,
-    "last_output": "Executing: 100%|##########| 4/4 [04:03<00:00, 61.00s/cell]",
+    "started_at_utc": "2026-06-13T08:14:46Z",
+    "elapsed_sec": 11933.4,
+    "last_output": "Executing: 100%|##########| 4/4 [04:08<00:00, 62.07s/cell]",
     "out_notebook": "C:\\datum-api-examples-main\\OriON\\status\\last_OpenDoor_out.ipynb",
     "out_notebook_size": 27595,
-    "out_notebook_mtime_utc": "2026-06-13T03:45:48Z"
+    "out_notebook_mtime_utc": "2026-06-13T08:18:54Z"
   }
 }
