@@ -1,21 +1,21 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-07-02T03:51:46Z**
+- Updated (UTC): **2026-07-14T18:36:07Z**
 - Host: **SHAKIROV-S**
 
 ## Run
 - phase: **finished**
 - notebook: `OpenDoor`
-- started: `2026-07-02T03:48:49Z`
-- elapsed: **12105.0s**
+- started: `2026-07-14T18:31:06Z`
+- elapsed: **15234.0s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_OpenDoor_out.ipynb`
-- out notebook size: `198918`
-- last output: `Executing: 100%|##########| 4/4 [02:57<00:00, 44.34s/cell]`
+- out notebook size: `235821`
+- last output: `Executing: 100%|##########| 4/4 [04:59<00:00, 74.90s/cell]`
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
-- strategies sha: `5b7f9d536005`
-- strategies updated: **False**
+- strategies sha: `b4f3b6060243`
+- strategies updated: **True**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
 - results subdir: ``
@@ -32,7 +32,38 @@
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (270s)
-- ✅ **ChronoFlow** (2s)
-- ✅ **CoupleDating** (2s)
-- ✅ **OpenDoor** (178s)
+- ✅ **ArbitRage** (539s)
+- ✅ **ChronoFlow** (3s)
+- ❌ **CoupleDating** (0s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\CoupleDating.ipynb
+Output Notebook: C:\datum-api-examples-main\OriON\status\last_CoupleDating_out.ipynb
+Traceback (most recent call last):
+  File "C:\datum-api-examples-main\.env\lib\site-packages\nbformat\reader.py", line 19, in parse_json
+    nb_dict = json.loads(s, **kwargs)
+  File "C:\Program Files\Python38\lib\json\__init__.py", line 337, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\__main__.py", line 4, in <module>
+    papermill()
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\cli.py", line 235, in papermill
+    execute_notebook(
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\execute.py", line 89, in execute_notebook
+    nb = load_notebook_nod
+- ✅ **OpenDoor** (301s)
