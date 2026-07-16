@@ -1,16 +1,16 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-07-15T10:39:50Z**
+- Updated (UTC): **2026-07-16T22:58:52Z**
 - Host: **SHAKIROV-S**
 
 ## Run
 - phase: **finished**
 - notebook: `OpenDoor`
-- started: `2026-07-15T10:34:04Z`
-- elapsed: **16080.7s**
+- started: `2026-07-16T22:52:42Z`
+- elapsed: **15663.8s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_OpenDoor_out.ipynb`
-- out notebook size: `245777`
-- last output: `Executing: 100%|##########| 4/4 [05:45<00:00, 86.36s/cell]`
+- out notebook size: `248221`
+- last output: `Executing: 100%|##########| 4/4 [06:09<00:00, 92.30s/cell]`
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
@@ -32,9 +32,9 @@
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (613s)
+- ✅ **ArbitRage** (630s)
 - ✅ **ChronoFlow** (3s)
-- ❌ **CoupleDating** (0s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\CoupleDating.ipynb
+- ❌ **CoupleDating** (1s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\CoupleDating.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_CoupleDating_out.ipynb
 Traceback (most recent call last):
   File "C:\datum-api-examples-main\.env\lib\site-packages\nbformat\reader.py", line 19, in parse_json
@@ -66,4 +66,4 @@ Traceback (most recent call last):
     execute_notebook(
   File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\execute.py", line 89, in execute_notebook
     nb = load_notebook_nod
-- ✅ **OpenDoor** (346s)
+- ✅ **OpenDoor** (370s)
