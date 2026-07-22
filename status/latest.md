@@ -1,16 +1,16 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-07-19T12:18:01Z**
+- Updated (UTC): **2026-07-22T05:57:28Z**
 - Host: **SHAKIROV-S**
 
 ## Run
-- phase: **finished**
-- notebook: `OpenDoor`
-- started: `2026-07-19T12:15:32Z`
-- elapsed: **11826.1s**
-- out notebook: `C:\datum-api-examples-main\OriON\status\last_OpenDoor_out.ipynb`
-- out notebook size: `205637`
-- last output: `Executing: 100%|##########| 4/4 [02:28<00:00, 37.05s/cell]`
+- phase: **running**
+- notebook: `CRACEN`
+- started: `2026-07-22T05:00:09Z`
+- elapsed: **3438.6s**
+- out notebook: `C:\datum-api-examples-main\OriON\status\last_CRACEN_out.ipynb`
+- out notebook size: `4790149`
+- last output: `Executing:  37%|###6      | 18/49 [33:20<2:44:07, 317.65s/cell]`
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
@@ -28,42 +28,7 @@
 - staged credentials: `C:\datum-api-examples-main\OriON\datum_api_credentials.json`
 
 ## CRACEN
-- ok: **True**
+- ok: **False**
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (255s)
-- ✅ **ChronoFlow** (3s)
-- ❌ **CoupleDating** (0s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\CoupleDating.ipynb
-Output Notebook: C:\datum-api-examples-main\OriON\status\last_CoupleDating_out.ipynb
-Traceback (most recent call last):
-  File "C:\datum-api-examples-main\.env\lib\site-packages\nbformat\reader.py", line 19, in parse_json
-    nb_dict = json.loads(s, **kwargs)
-  File "C:\Program Files\Python38\lib\json\__init__.py", line 337, in loads
-    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
-json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
-    exec(code, run_globals)
-  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\__main__.py", line 4, in <module>
-    papermill()
-  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1161, in __call__
-    return self.main(*args, **kwargs)
-  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1082, in main
-    rv = self.invoke(ctx)
-  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1443, in invoke
-    return ctx.invoke(self.callback, **ctx.params)
-  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 788, in invoke
-    return __callback(*args, **kwargs)
-  File "C:\datum-api-examples-main\.env\lib\site-packages\click\decorators.py", line 33, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\cli.py", line 235, in papermill
-    execute_notebook(
-  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\execute.py", line 89, in execute_notebook
-    nb = load_notebook_nod
-- ✅ **OpenDoor** (149s)

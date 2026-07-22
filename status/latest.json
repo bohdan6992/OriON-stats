@@ -1,6 +1,6 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-07-19T12:18:01Z",
+  "updated_at_utc": "2026-07-22T05:57:28Z",
   "host": "SHAKIROV-S",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
@@ -23,42 +23,21 @@
     "error": null
   },
   "cracen": {
-    "ok": true,
+    "ok": false,
     "final_path": "C:\\datum-api-examples-main\\OriON\\CRACEN\\final.parquet",
     "error": null
   },
-  "strategies": {
-    "ArbitRage": {
-      "ok": true,
-      "duration_sec": 255.761474609375
-    },
-    "ChronoFlow": {
-      "ok": true,
-      "duration_sec": 3.8199353218078613
-    },
-    "CoupleDating": {
-      "ok": false,
-      "duration_sec": 0.8173122406005859,
-      "error": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\CoupleDating.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_CoupleDating_out.ipynb\nTraceback (most recent call last):\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\reader.py\", line 19, in parse_json\n    nb_dict = json.loads(s, **kwargs)\n  File \"C:\\Program Files\\Python38\\lib\\json\\__init__.py\", line 337, in loads\n    raise JSONDecodeError(\"Unexpected UTF-8 BOM (decode using utf-8-sig)\",\njson.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 194, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 87, in _run_code\n    exec(code, run_globals)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\__main__.py\", line 4, in <module>\n    papermill()\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\decorators.py\", line 33, in new_func\n    return f(get_current_context(), *args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\cli.py\", line 235, in papermill\n    execute_notebook(\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\execute.py\", line 89, in execute_notebook\n    nb = load_notebook_nod"
-    },
-    "OpenDoor": {
-      "ok": true,
-      "duration_sec": 149.12446212768555
-    }
-  },
-  "durations_sec": {
-    "cracen": 11415.618970632553,
-    "total": 11826.06129527092
-  },
+  "strategies": {},
+  "durations_sec": {},
   "fatal_error": null,
   "run": {
-    "phase": "finished",
-    "current_notebook": "OpenDoor",
-    "started_at_utc": "2026-07-19T12:15:32Z",
-    "elapsed_sec": 11826.1,
-    "last_output": "Executing: 100%|##########| 4/4 [02:28<00:00, 37.05s/cell]",
-    "out_notebook": "C:\\datum-api-examples-main\\OriON\\status\\last_OpenDoor_out.ipynb",
-    "out_notebook_size": 205637,
-    "out_notebook_mtime_utc": "2026-07-19T12:18:00Z"
+    "phase": "running",
+    "current_notebook": "CRACEN",
+    "started_at_utc": "2026-07-22T05:00:09Z",
+    "elapsed_sec": 3438.6,
+    "last_output": "Executing:  37%|###6      | 18/49 [33:20<2:44:07, 317.65s/cell]",
+    "out_notebook": "C:\\datum-api-examples-main\\OriON\\status\\last_CRACEN_out.ipynb",
+    "out_notebook_size": 4790149,
+    "out_notebook_mtime_utc": "2026-07-22T05:39:05Z"
   }
 }
