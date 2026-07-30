@@ -1,20 +1,20 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-07-29T05:45:35Z**
+- Updated (UTC): **2026-07-30T13:21:00Z**
 - Host: **SHAKIROV-S**
 
 ## Run
-- phase: **running**
-- notebook: `CRACEN`
-- started: `2026-07-29T05:00:07Z`
-- elapsed: **2728.7s**
-- out notebook: `C:\datum-api-examples-main\OriON\status\last_CRACEN_out.ipynb`
-- out notebook size: `433366`
-- last output: `Executing:  37%|###6      | 18/49 [29:45<1:55:19, 223.22s/cell]`
+- phase: **finished**
+- notebook: `SectorCorr`
+- started: `2026-07-30T13:12:46Z`
+- elapsed: **30056.6s**
+- out notebook: `C:\datum-api-examples-main\OriON\status\last_SectorCorr_out.ipynb`
+- out notebook size: `45046`
+- last output: `Executing: 100%|##########| 14/14 [08:13<00:00, 35.22s/cell]`
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
-- strategies sha: `b4f3b6060243`
+- strategies sha: `3c42178ff3ea`
 - strategies updated: **False**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
@@ -28,7 +28,74 @@
 - staged credentials: `C:\datum-api-examples-main\OriON\datum_api_credentials.json`
 
 ## CRACEN
-- ok: **False**
+- ok: **True**
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
+- ✅ **ArbitRage** (352s)
+- ✅ **ChronoFlow** (3s)
+- ❌ **CoupleDating** (0s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\CoupleDating.ipynb
+Output Notebook: C:\datum-api-examples-main\OriON\status\last_CoupleDating_out.ipynb
+Traceback (most recent call last):
+  File "C:\datum-api-examples-main\.env\lib\site-packages\nbformat\reader.py", line 19, in parse_json
+    nb_dict = json.loads(s, **kwargs)
+  File "C:\Program Files\Python38\lib\json\__init__.py", line 337, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\__main__.py", line 4, in <module>
+    papermill()
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\cli.py", line 235, in papermill
+    execute_notebook(
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\execute.py", line 89, in execute_notebook
+    nb = load_notebook_nod
+- ❌ **CRACEN ** (2s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\CRACEN .ipynb
+Output Notebook: C:\datum-api-examples-main\OriON\status\last_CRACEN _out.ipynb
+
+Executing:   0%|          | 0/49 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
+Executing notebook with kernel: python3
+
+Executing:   2%|2         | 1/49 [00:00<00:46,  1.04cell/s]
+Executing:   4%|4         | 2/49 [00:01<00:28,  1.65cell/s]
+Executing:  10%|#         | 5/49 [00:01<00:10,  4.25cell/s]
+Executing:  10%|#         | 5/49 [00:01<00:14,  2.94cell/s]
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\__main__.py", line 4, in <module>
+    papermill()
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\cli.py", line 235, in papermill
+    execute_notebook(
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\execute.py", line 131, in execute_notebook
+    raise_for_execution_er
+- ✅ **OpenDoor** (270s)
+- ✅ **SectorCorr** (494s)
