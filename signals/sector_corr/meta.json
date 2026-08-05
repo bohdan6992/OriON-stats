@@ -1,17 +1,17 @@
 {
   "strategy": "sector_corr",
-  "run_date": "2026-08-03",
-  "start_date": "2023-08-03",
-  "end_date": "2026-08-03",
+  "run_date": "2026-08-05",
+  "start_date": "2023-08-05",
+  "end_date": "2026-08-05",
   "lookback_years": 3,
   "min_days": 5,
   "value_col": "gap_div",
   "data_source": "datum",
-  "tickers_universe": 5407,
-  "gap_rows": 3628247,
-  "report_rows": 48168,
-  "pairs": 1656481,
-  "pairs_ok": 1655232,
-  "tickers_with_corr": 4158,
-  "generated_at_utc": "2026-08-04T04:05:53Z"
+  "tickers_universe": 5408,
+  "gap_rows": 3625527,
+  "report_rows": 48077,
+  "pairs": 1657692,
+  "pairs_ok": 1656446,
+  "tickers_with_corr": 4161,
+  "generated_at_utc": "2026-08-05T04:52:41Z"
 }
