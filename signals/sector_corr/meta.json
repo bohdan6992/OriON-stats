@@ -8,10 +8,10 @@
   "value_col": "gap_div",
   "data_source": "datum",
   "tickers_universe": 5409,
-  "gap_rows": 3635899,
+  "gap_rows": 3641181,
   "report_rows": 48896,
-  "pairs": 1668859,
-  "pairs_ok": 1667619,
-  "tickers_with_corr": 4169,
-  "generated_at_utc": "2026-08-08T05:25:13Z"
+  "pairs": 1672058,
+  "pairs_ok": 1670822,
+  "tickers_with_corr": 4173,
+  "generated_at_utc": "2026-08-09T00:25:54Z"
 }
