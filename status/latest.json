@@ -1,11 +1,11 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-08-11T11:35:20Z",
+  "updated_at_utc": "2026-09-01T00:04:46Z",
   "host": "CY-7GT-PC-020",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
-    "strategies_sha": "d9ded3bc3e15",
-    "strategies_updated": false,
+    "strategies_sha": "7147cafb48fb",
+    "strategies_updated": true,
     "strategies_error": null,
     "results_repo": "https://github.com/bohdan6992/OriON-stats.git",
     "results_commit": null,
@@ -30,42 +30,43 @@
   "strategies": {
     "ArbitRage": {
       "ok": true,
-      "duration_sec": 700.4413373470306
+      "duration_sec": 536.8594167232513
     },
     "DayTwo": {
       "ok": true,
-      "duration_sec": 1156.6758468151093
+      "duration_sec": 996.8240194320679
     },
     "OpenDoor": {
       "ok": true,
-      "duration_sec": 931.7714853286743
+      "duration_sec": 773.8690958023071
     },
     "PairFlux": {
-      "ok": true,
-      "duration_sec": 542.3992576599121
+      "ok": false,
+      "duration_sec": 3.2321507930755615,
+      "error": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\PairFlux.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_PairFlux_out.ipynb\n\nExecuting:   0%|          | 0/5 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.\nExecuting notebook with kernel: python3\n\nExecuting:  20%|##        | 1/5 [00:00<00:03,  1.04cell/s]\nExecuting:  40%|####      | 2/5 [00:01<00:01,  1.95cell/s]\nExecuting:  80%|########  | 4/5 [00:01<00:00,  4.43cell/s]\nExecuting: 100%|##########| 5/5 [00:01<00:00,  2.74cell/s]\nTraceback (most recent call last):\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 194, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 87, in _run_code\n    exec(code, run_globals)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\__main__.py\", line 4, in <module>\n    papermill()\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\decorators.py\", line 33, in new_func\n    return f(get_current_context(), *args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\cli.py\", line 235, in papermill\n    execute_notebook(\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\execute.py\", line 131, in execute_notebook\n    raise_for_execution_error"
     },
     "PumpDump": {
       "ok": true,
-      "duration_sec": 1878.5997631549835
+      "duration_sec": 1565.9768569469452
     },
     "SectorCorr": {
       "ok": true,
-      "duration_sec": 461.99210143089294
+      "duration_sec": 130.23833966255188
     }
   },
   "durations_sec": {
-    "cracen": 3970.7039024829865,
-    "total": 9671.33740067482
+    "cracen": 3475.1115579605103,
+    "total": 7485.119266271591
   },
   "fatal_error": null,
   "run": {
     "phase": "finished",
     "current_notebook": "SectorCorr",
-    "started_at_utc": "2026-08-11T11:27:40Z",
-    "elapsed_sec": 9671.3,
-    "last_output": "Executing: 100%|##########| 14/14 [07:39<00:00, 32.85s/cell]",
+    "started_at_utc": "2026-09-01T00:02:37Z",
+    "elapsed_sec": 7485.1,
+    "last_output": "Executing: 100%|##########| 14/14 [02:09<00:00,  9.23s/cell]",
     "out_notebook": "C:\\datum-api-examples-main\\OriON\\status\\last_SectorCorr_out.ipynb",
-    "out_notebook_size": 45051,
-    "out_notebook_mtime_utc": "2026-08-11T11:35:20Z"
+    "out_notebook_size": 1587579,
+    "out_notebook_mtime_utc": "2026-09-01T00:04:46Z"
   }
 }
