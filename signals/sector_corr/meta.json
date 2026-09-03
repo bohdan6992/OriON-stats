@@ -1,16 +1,16 @@
 {
   "strategy": "sector_corr",
-  "run_date": "2026-09-01",
-  "start_date": "2023-09-01",
-  "end_date": "2026-09-01",
+  "run_date": "2026-09-02",
+  "start_date": "2023-09-02",
+  "end_date": "2026-09-02",
   "lookback_years": 3,
   "min_days": 5,
   "value_col": "gap_div",
   "data_source": "datum",
   "tickers_universe": 5414,
-  "gap_rows": 1566619,
-  "report_rows": 25078,
-  "pairs": 2334,
+  "gap_rows": 1311259,
+  "report_rows": 26034,
+  "pairs": 1952,
   "pairs_ok": 0,
   "tickers_with_corr": 0,
   "min_abs_corr": 0.5,
@@ -22,5 +22,5 @@
     "correlation"
   ],
   "pairs_direction": "correlation measured on the report days of `ticker`; not symmetric",
-  "generated_at_utc": "2026-09-02T00:01:18Z"
+  "generated_at_utc": "2026-09-03T00:12:06Z"
 }
