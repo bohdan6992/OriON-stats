@@ -1,11 +1,11 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-09-03T00:12:07Z",
+  "updated_at_utc": "2026-09-04T00:05:18Z",
   "host": "CY-7GT-PC-020",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
     "strategies_sha": "845408d3aed4",
-    "strategies_updated": true,
+    "strategies_updated": false,
     "strategies_error": null,
     "results_repo": "https://github.com/bohdan6992/OriON-stats.git",
     "results_commit": null,
@@ -30,42 +30,42 @@
   "strategies": {
     "ArbitRage": {
       "ok": true,
-      "duration_sec": 567.3901586532593
+      "duration_sec": 558.1277015209198
     },
     "DayTwo": {
       "ok": true,
-      "duration_sec": 1035.822298526764
+      "duration_sec": 1012.2800896167755
     },
     "OpenDoor": {
       "ok": true,
-      "duration_sec": 807.6539914608002
+      "duration_sec": 791.6319968700409
     },
     "PairFlux": {
       "ok": true,
-      "duration_sec": 472.7388563156128
+      "duration_sec": 190.80640697479248
     },
     "PumpDump": {
       "ok": true,
-      "duration_sec": 1620.0484762191772
+      "duration_sec": 1594.1560745239258
     },
     "SectorCorr": {
       "ok": true,
-      "duration_sec": 143.16614532470703
+      "duration_sec": 144.03475046157837
     }
   },
   "durations_sec": {
-    "cracen": 3275.576269388199,
-    "total": 7925.326810121536
+    "cracen": 3224.100507259369,
+    "total": 7516.171655893326
   },
   "fatal_error": null,
   "run": {
     "phase": "finished",
     "current_notebook": "SectorCorr",
-    "started_at_utc": "2026-09-03T00:09:44Z",
-    "elapsed_sec": 7925.3,
-    "last_output": "Executing: 100%|##########| 14/14 [02:22<00:00, 10.15s/cell]",
+    "started_at_utc": "2026-09-04T00:02:54Z",
+    "elapsed_sec": 7516.2,
+    "last_output": "Executing: 100%|##########| 14/14 [02:22<00:00, 10.21s/cell]",
     "out_notebook": "C:\\datum-api-examples-main\\OriON\\status\\last_SectorCorr_out.ipynb",
-    "out_notebook_size": 1151421,
-    "out_notebook_mtime_utc": "2026-09-03T00:12:07Z"
+    "out_notebook_size": 1162439,
+    "out_notebook_mtime_utc": "2026-09-04T00:05:17Z"
   }
 }
