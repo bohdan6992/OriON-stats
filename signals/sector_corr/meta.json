@@ -7,10 +7,10 @@
   "min_days": 5,
   "value_col": "gap_div",
   "data_source": "datum",
-  "tickers_universe": 5418,
-  "gap_rows": 1313779,
-  "report_rows": 25923,
-  "pairs": 1957,
+  "tickers_universe": 5421,
+  "gap_rows": 1101486,
+  "report_rows": 25143,
+  "pairs": 1643,
   "pairs_ok": 0,
   "tickers_with_corr": 0,
   "min_abs_corr": 0.5,
@@ -22,5 +22,5 @@
     "correlation"
   ],
   "pairs_direction": "correlation measured on the report days of `ticker`; not symmetric",
-  "generated_at_utc": "2026-09-09T08:40:09Z"
+  "generated_at_utc": "2026-09-09T23:22:55Z"
 }
