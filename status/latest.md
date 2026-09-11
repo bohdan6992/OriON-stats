@@ -1,21 +1,21 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-09-09T23:22:56Z**
+- Updated (UTC): **2026-09-11T00:04:10Z**
 - Host: **CY-7GT-PC-020**
 
 ## Run
 - phase: **finished**
 - notebook: `SectorCorr`
-- started: `2026-09-09T23:20:48Z`
-- elapsed: **4974.3s**
+- started: `2026-09-11T00:01:26Z`
+- elapsed: **7448.5s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_SectorCorr_out.ipynb`
-- out notebook size: `1231373`
-- last output: `Executing: 100%|##########| 14/14 [02:07<00:00,  9.08s/cell]`
+- out notebook size: `1145014`
+- last output: `Executing: 100%|##########| 14/14 [02:43<00:00, 11.69s/cell]`
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
-- strategies sha: `4da827e939d1`
-- strategies updated: **False**
+- strategies sha: `06d125e92050`
+- strategies updated: **True**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
 - results subdir: ``
@@ -32,9 +32,9 @@
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (447s)
-- ✅ **DayTwo** (827s)
-- ✅ **OpenDoor** (647s)
-- ✅ **PairFlux** (161s)
-- ✅ **PumpDump** (1270s)
-- ✅ **SectorCorr** (127s)
+- ✅ **ArbitRage** (540s)
+- ✅ **DayTwo** (976s)
+- ✅ **OpenDoor** (772s)
+- ✅ **PairFlux** (208s)
+- ✅ **PumpDump** (1525s)
+- ✅ **SectorCorr** (164s)
