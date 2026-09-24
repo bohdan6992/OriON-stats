@@ -1,6 +1,6 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-09-23T00:37:06Z",
+  "updated_at_utc": "2026-09-24T00:36:12Z",
   "host": "CY-7GT-PC-020",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
@@ -30,42 +30,42 @@
   "strategies": {
     "ArbitRage": {
       "ok": true,
-      "duration_sec": 2779.7314965724945
+      "duration_sec": 2786.1979598999023
     },
     "DayTwo": {
       "ok": true,
-      "duration_sec": 930.5214207172394
+      "duration_sec": 934.0654723644257
     },
     "OpenDoor": {
       "ok": true,
-      "duration_sec": 732.9065361022949
+      "duration_sec": 734.0733096599579
     },
     "PairFlux": {
       "ok": true,
-      "duration_sec": 474.8108620643616
+      "duration_sec": 474.72517585754395
     },
     "PumpDump": {
       "ok": true,
-      "duration_sec": 1450.7389249801636
+      "duration_sec": 1471.9906985759735
     },
     "SectorCorr": {
       "ok": true,
-      "duration_sec": 158.47388887405396
+      "duration_sec": 176.13780570030212
     }
   },
   "durations_sec": {
-    "cracen": 2895.8133499622345,
-    "total": 9424.502403259277
+    "cracen": 2791.528584241867,
+    "total": 9370.641265153885
   },
   "fatal_error": null,
   "run": {
     "phase": "finished",
     "current_notebook": "SectorCorr",
-    "started_at_utc": "2026-09-23T00:34:28Z",
-    "elapsed_sec": 9424.5,
-    "last_output": "Executing: 100%|##########| 14/14 [02:36<00:00, 11.21s/cell]",
+    "started_at_utc": "2026-09-24T00:33:16Z",
+    "elapsed_sec": 9370.6,
+    "last_output": "Executing: 100%|##########| 14/14 [02:54<00:00, 12.48s/cell]",
     "out_notebook": "C:\\datum-api-examples-main\\OriON\\status\\last_SectorCorr_out.ipynb",
-    "out_notebook_size": 1065989,
-    "out_notebook_mtime_utc": "2026-09-23T00:37:06Z"
+    "out_notebook_size": 1119941,
+    "out_notebook_mtime_utc": "2026-09-24T00:36:11Z"
   }
 }
