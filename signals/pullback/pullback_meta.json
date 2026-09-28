@@ -1,0 +1,185 @@
+{
+ "summary": {
+  "events": 2772939,
+  "days": 61,
+  "train_days": 41,
+  "test_days": 20,
+  "split_after": 20260827,
+  "ticker_cells_scored": 414365,
+  "picked_on_train": 586,
+  "picked_by_luck_avg": 244.2,
+  "picked_with_test_events": 446,
+  "test_mean_net_pp": -0.05133394459992676,
+  "test_hit_rate": 0.4906204906204906,
+  "train_mean_net_pp": 1.7559360934897825,
+  "stacks_picked": 375,
+  "stacks_confirmed": 154
+ },
+ "cfg": {
+  "zones": [
+   [
+    "EARLY",
+    [
+     4,
+     0
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     9,
+     20
+    ]
+   ],
+   [
+    "PRE_MID",
+    [
+     6,
+     0
+    ],
+    [
+     8,
+     0
+    ],
+    [
+     9,
+     20
+    ]
+   ],
+   [
+    "PRE_LATE",
+    [
+     8,
+     0
+    ],
+    [
+     9,
+     15
+    ],
+    [
+     9,
+     28
+    ]
+   ],
+   [
+    "OPEN",
+    [
+     9,
+     30
+    ],
+    [
+     10,
+     30
+    ],
+    [
+     16,
+     0
+    ]
+   ],
+   [
+    "MORNING",
+    [
+     10,
+     30
+    ],
+    [
+     12,
+     0
+    ],
+    [
+     16,
+     0
+    ]
+   ],
+   [
+    "MIDDAY",
+    [
+     12,
+     0
+    ],
+    [
+     14,
+     0
+    ],
+    [
+     16,
+     0
+    ]
+   ],
+   [
+    "AFTERNOON",
+    [
+     14,
+     0
+    ],
+    [
+     15,
+     15
+    ],
+    [
+     16,
+     0
+    ]
+   ],
+   [
+    "POST",
+    [
+     16,
+     0
+    ],
+    [
+     18,
+     30
+    ],
+    [
+     20,
+     0
+    ]
+   ]
+  ],
+  "move_minutes": [
+   15,
+   30,
+   60
+  ],
+  "reversal_minutes": [
+   15,
+   30,
+   60,
+   90
+  ],
+  "anchor_step": 15,
+  "price_tol": 5,
+  "ignore_windows": [
+   [
+    [
+     3,
+     58
+    ],
+    [
+     4,
+     2
+    ]
+   ],
+   [
+    [
+     7,
+     58
+    ],
+    [
+     8,
+     2
+    ]
+   ]
+  ],
+  "strong_k": 2.5,
+  "min_move_pp": 1.0,
+  "cost_pp": 0.3,
+  "max_spread_pp": null,
+  "exclude_news": true,
+  "scale_days": 10,
+  "min_scale_days": 3,
+  "max_abs_pp": 40.0
+ }
+}
