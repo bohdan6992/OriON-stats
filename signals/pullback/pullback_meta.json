@@ -1,19 +1,19 @@
 {
  "summary": {
-  "events": 2772939,
-  "days": 61,
-  "train_days": 41,
+  "events": 2769763,
+  "days": 60,
+  "train_days": 40,
   "test_days": 20,
   "split_after": 20260827,
-  "ticker_cells_scored": 414365,
-  "picked_on_train": 586,
-  "picked_by_luck_avg": 244.2,
-  "picked_with_test_events": 446,
-  "test_mean_net_pp": -0.05133394459992676,
-  "test_hit_rate": 0.4906204906204906,
-  "train_mean_net_pp": 1.7559360934897825,
-  "stacks_picked": 375,
-  "stacks_confirmed": 154
+  "ticker_cells_scored": 413402,
+  "picked_on_train": 567,
+  "picked_by_luck_avg": 245.4,
+  "picked_with_test_events": 431,
+  "test_mean_net_pp": -0.021310035459651256,
+  "test_hit_rate": 0.494320987654321,
+  "train_mean_net_pp": 1.777101897311957,
+  "stacks_picked": 358,
+  "stacks_confirmed": 141
  },
  "cfg": {
   "zones": [
