@@ -1,11 +1,11 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-09-29T01:05:28Z",
+  "updated_at_utc": "2026-09-30T01:20:52Z",
   "host": "CY-7GT-PC-020",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
     "strategies_sha": "3e9a5f77c371",
-    "strategies_updated": true,
+    "strategies_updated": false,
     "strategies_error": null,
     "results_repo": "https://github.com/bohdan6992/OriON-stats.git",
     "results_commit": null,
@@ -30,55 +30,55 @@
   "strategies": {
     "ArbitRage": {
       "ok": true,
-      "duration_sec": 2748.6092188358307
+      "duration_sec": 2839.263331890106
     },
     "DayTwo": {
       "ok": true,
-      "duration_sec": 958.0860829353333
+      "duration_sec": 983.6290597915649
     },
     "OpenDoor": {
       "ok": true,
-      "duration_sec": 743.3792254924774
+      "duration_sec": 770.2528495788574
     },
     "PairFlux": {
       "ok": true,
-      "duration_sec": 716.8955202102661
+      "duration_sec": 742.6633427143097
     },
     "PeakDeviation": {
       "ok": false,
-      "duration_sec": 2.515629291534424,
-      "error": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\PeakDeviation.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_PeakDeviation_out.ipynb\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '2e81dd2e'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '18b77cc8'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '66403a65'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '62c4e302'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'cb026a71'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '08a0e1b5'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '2e2a1c08'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '99f3ab63'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'a79c38e1'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '62d77a18'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '6460bd18'.\n  validate(n"
+      "duration_sec": 2.335206985473633,
+      "error": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\PeakDeviation.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_PeakDeviation_out.ipynb\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '23a66b47'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'd859c629'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '1cf9765e'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'e95f12f4'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '67a44fda'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '853728d9'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '09ef7329'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'a68d2c14'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'bb26db27'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '6af8bb3c'.\n  validate(nb)\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'e1ad3014'.\n  validate(n"
     },
     "Pullback": {
       "ok": true,
-      "duration_sec": 1262.1503658294678
+      "duration_sec": 1304.2654521465302
     },
     "PumpDump": {
       "ok": true,
-      "duration_sec": 1479.4365463256836
+      "duration_sec": 1557.0067882537842
     },
     "Reversal": {
       "ok": true,
-      "duration_sec": 435.43767738342285
+      "duration_sec": 442.7738678455353
     },
     "SectorCorr": {
       "ok": true,
-      "duration_sec": 177.51778864860535
+      "duration_sec": 142.9153232574463
     }
   },
   "durations_sec": {
-    "cracen": 2598.2074751853943,
-    "total": 11126.80727481842
+    "cracen": 3262.9113624095917,
+    "total": 12050.091548919678
   },
   "fatal_error": null,
   "run": {
     "phase": "finished",
     "current_notebook": "SectorCorr",
-    "started_at_utc": "2026-09-29T01:02:31Z",
-    "elapsed_sec": 11126.8,
-    "last_output": "Executing: 100%|##########| 14/14 [02:56<00:00, 12.59s/cell]",
+    "started_at_utc": "2026-09-30T01:18:29Z",
+    "elapsed_sec": 12050.1,
+    "last_output": "Executing: 100%|##########| 14/14 [02:21<00:00, 10.14s/cell]",
     "out_notebook": "C:\\datum-api-examples-main\\OriON\\status\\last_SectorCorr_out.ipynb",
-    "out_notebook_size": 907897,
-    "out_notebook_mtime_utc": "2026-09-29T01:05:28Z"
+    "out_notebook_size": 1158961,
+    "out_notebook_mtime_utc": "2026-09-30T01:20:51Z"
   }
 }
