@@ -1,20 +1,20 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-10-01T01:03:46Z**
+- Updated (UTC): **2026-10-02T01:16:58Z**
 - Host: **CY-7GT-PC-020**
 
 ## Run
 - phase: **finished**
 - notebook: `SectorCorr`
-- started: `2026-10-01T01:01:33Z`
-- elapsed: **11023.5s**
+- started: `2026-10-02T01:14:33Z`
+- elapsed: **11816.3s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_SectorCorr_out.ipynb`
-- out notebook size: `1202273`
-- last output: `Executing: 100%|##########| 14/14 [02:11<00:00,  9.40s/cell]`
+- out notebook size: `1103084`
+- last output: `Executing: 100%|##########| 14/14 [02:24<00:00, 10.29s/cell]`
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
-- strategies sha: `2cc7af5bd8c3`
+- strategies sha: `3204c7987775`
 - strategies updated: **True**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
@@ -32,36 +32,38 @@
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (2504s)
-- ✅ **Continuum** (393s)
-- ✅ **DayTwo** (861s)
-- ✅ **OpenDoor** (682s)
-- ✅ **PairFlux** (642s)
+- ✅ **ArbitRage** (2533s)
+- ✅ **CLO•continuum** (391s)
+- ✅ **CLO•reversal** (393s)
+- ✅ **DayTwo** (887s)
+- ✅ **OpenDoor** (693s)
+- ✅ **OPG•continuum** (294s)
+- ✅ **OPG•reversal** (299s)
+- ✅ **PairFlux** (648s)
 - ❌ **PeakDeviation** (2s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\PeakDeviation.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_PeakDeviation_out.ipynb
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '16924f79'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '502e7fef'.
   validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '006cdea6'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '437dff74'.
   validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '66e8e396'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '4e3433f0'.
   validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'facd1504'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'ce0a4457'.
   validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'cb6bc11c'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '568a24d8'.
   validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '4cef514c'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'dd7422f2'.
   validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '2aeb3310'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'e70a017d'.
   validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '81f71c0e'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '54eb83c7'.
   validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '58f99c75'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '97214667'.
   validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'cd8203d0'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '28b64601'.
   validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '93216c65'.
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'e5cf96fa'.
   validate(n
-- ✅ **Pullback** (1125s)
-- ✅ **PumpDump** (1344s)
-- ✅ **Reversal** (393s)
-- ✅ **SectorCorr** (132s)
+- ✅ **Pullback** (1162s)
+- ✅ **PumpDump** (1359s)
+- ✅ **SectorCorr** (145s)
