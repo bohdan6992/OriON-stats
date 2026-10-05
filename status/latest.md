@@ -1,20 +1,50 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-10-02T01:16:58Z**
+- Updated (UTC): **2026-10-05T00:56:53Z**
 - Host: **CY-7GT-PC-020**
 
 ## Run
 - phase: **finished**
-- notebook: `SectorCorr`
-- started: `2026-10-02T01:14:33Z`
-- elapsed: **11816.3s**
-- out notebook: `C:\datum-api-examples-main\OriON\status\last_SectorCorr_out.ipynb`
-- out notebook size: `1103084`
-- last output: `Executing: 100%|##########| 14/14 [02:24<00:00, 10.29s/cell]`
+- notebook: `VWAPBounce`
+- started: `2026-10-05T00:56:51Z`
+- elapsed: **10611.8s**
+- out notebook: `C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb`
+- out notebook size: `82323`
+- last output: `Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
+Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
+
+Executing:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
+Executing notebook with kernel: python3
+
+Executing:  12%|#2        | 1/8 [00:00<00:06,  1.08cell/s]
+Executing:  25%|##5       | 2/8 [00:01<00:02,  2.16cell/s]
+Executing:  62%|######2   | 5/8 [00:01<00:00,  5.42cell/s]
+Executing:  62%|######2   | 5/8 [00:01<00:00,  3.58cell/s]
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\__main__.py", line 4, in <module>
+    papermill()
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\cli.py", line 235, in papermill
+    execute_notebook(
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\execute.py", line 131, in execute_notebook
+    raise_for_execution_e`
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
-- strategies sha: `3204c7987775`
+- strategies sha: `4e8876dd86ca`
 - strategies updated: **True**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
@@ -32,38 +62,45 @@
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (2533s)
-- ✅ **CLO•continuum** (391s)
-- ✅ **CLO•reversal** (393s)
-- ✅ **DayTwo** (887s)
-- ✅ **OpenDoor** (693s)
-- ✅ **OPG•continuum** (294s)
-- ✅ **OPG•reversal** (299s)
-- ✅ **PairFlux** (648s)
-- ❌ **PeakDeviation** (2s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\PeakDeviation.ipynb
-Output Notebook: C:\datum-api-examples-main\OriON\status\last_PeakDeviation_out.ipynb
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '502e7fef'.
-  validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '437dff74'.
-  validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '4e3433f0'.
-  validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'ce0a4457'.
-  validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '568a24d8'.
-  validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'dd7422f2'.
-  validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'e70a017d'.
-  validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '54eb83c7'.
-  validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '97214667'.
-  validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to '28b64601'.
-  validate(nb)
-C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: DuplicateCellId: Non-unique cell id None detected. Corrected to 'e5cf96fa'.
-  validate(n
-- ✅ **Pullback** (1162s)
-- ✅ **PumpDump** (1359s)
-- ✅ **SectorCorr** (145s)
+- ✅ **ArbitRage** (2384s)
+- ✅ **CLO•continuum** (374s)
+- ✅ **CLO•reversal** (376s)
+- ✅ **DayTwo** (811s)
+- ✅ **OpenDoor** (629s)
+- ✅ **OPG•continuum** (287s)
+- ✅ **OPG•reversal** (283s)
+- ✅ **PairFlux** (596s)
+- ✅ **Pullback** (1043s)
+- ✅ **PumpDump** (1269s)
+- ✅ **SectorCorr** (147s)
+- ❌ **VWAPBounce** (2s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
+Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
+
+Executing:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
+Executing notebook with kernel: python3
+
+Executing:  12%|#2        | 1/8 [00:00<00:06,  1.08cell/s]
+Executing:  25%|##5       | 2/8 [00:01<00:02,  2.16cell/s]
+Executing:  62%|######2   | 5/8 [00:01<00:00,  5.42cell/s]
+Executing:  62%|######2   | 5/8 [00:01<00:00,  3.58cell/s]
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\__main__.py", line 4, in <module>
+    papermill()
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\click\decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\cli.py", line 235, in papermill
+    execute_notebook(
+  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\execute.py", line 131, in execute_notebook
+    raise_for_execution_e
