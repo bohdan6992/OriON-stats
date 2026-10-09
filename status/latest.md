@@ -1,13 +1,13 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-10-08T01:35:24Z**
+- Updated (UTC): **2026-10-09T01:13:58Z**
 - Host: **CY-7GT-PC-020**
 
 ## Run
 - phase: **finished**
 - notebook: `VWAPBounce`
-- started: `2026-10-08T01:35:22Z`
-- elapsed: **12922.5s**
+- started: `2026-10-09T01:13:56Z`
+- elapsed: **11636.1s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb`
 - out notebook size: `82324`
 - last output: `Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
@@ -17,8 +17,8 @@ Executing:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have 
 Executing notebook with kernel: python3
 
 Executing:  12%|#2        | 1/8 [00:00<00:06,  1.05cell/s]
-Executing:  25%|##5       | 2/8 [00:01<00:02,  2.04cell/s]
-Executing:  62%|######2   | 5/8 [00:01<00:00,  5.13cell/s]
+Executing:  25%|##5       | 2/8 [00:01<00:02,  2.02cell/s]
+Executing:  62%|######2   | 5/8 [00:01<00:00,  5.09cell/s]
 Executing:  62%|######2   | 5/8 [00:01<00:00,  3.37cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
@@ -62,17 +62,17 @@ Traceback (most recent call last):
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (2860s)
-- ✅ **CLO•continuum** (449s)
-- ✅ **CLO•reversal** (446s)
-- ✅ **DayTwo** (976s)
-- ✅ **OpenDoor** (759s)
-- ✅ **OPG•continuum** (344s)
-- ✅ **OPG•reversal** (344s)
-- ✅ **PairFlux** (730s)
-- ✅ **Pullback** (1266s)
-- ✅ **PumpDump** (1520s)
-- ✅ **SectorCorr** (158s)
+- ✅ **ArbitRage** (2583s)
+- ✅ **CLO•continuum** (413s)
+- ✅ **CLO•reversal** (402s)
+- ✅ **DayTwo** (873s)
+- ✅ **OpenDoor** (692s)
+- ✅ **OPG•continuum** (313s)
+- ✅ **OPG•reversal** (316s)
+- ✅ **PairFlux** (649s)
+- ✅ **Pullback** (1133s)
+- ✅ **PumpDump** (1385s)
+- ✅ **SectorCorr** (149s)
 - ❌ **VWAPBounce** (2s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
 
@@ -80,8 +80,8 @@ Executing:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have 
 Executing notebook with kernel: python3
 
 Executing:  12%|#2        | 1/8 [00:00<00:06,  1.05cell/s]
-Executing:  25%|##5       | 2/8 [00:01<00:02,  2.04cell/s]
-Executing:  62%|######2   | 5/8 [00:01<00:00,  5.13cell/s]
+Executing:  25%|##5       | 2/8 [00:01<00:02,  2.02cell/s]
+Executing:  62%|######2   | 5/8 [00:01<00:00,  5.09cell/s]
 Executing:  62%|######2   | 5/8 [00:01<00:00,  3.37cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
