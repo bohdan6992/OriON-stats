@@ -8,19 +8,19 @@
   "value_col": "gap_div",
   "data_source": "datum",
   "tickers_universe": 5412,
-  "gap_rows": 160074,
-  "report_rows": 22555,
-  "pairs": 12220,
-  "pairs_ok": 12074,
-  "tickers_with_corr": 78,
+  "gap_rows": 1846236,
+  "report_rows": 25029,
+  "pairs": 21870,
+  "pairs_ok": 19220,
+  "tickers_with_corr": 101,
   "min_abs_corr": 0.5,
-  "pairs_written": 2070,
-  "tickers_written": 78,
+  "pairs_written": 2731,
+  "tickers_written": 100,
   "pairs_columns": [
     "ticker",
     "peer_ticker",
     "correlation"
   ],
   "pairs_direction": "correlation measured on the report days of `ticker`; not symmetric",
-  "generated_at_utc": "2026-10-11T19:50:14Z"
+  "generated_at_utc": "2026-10-12T00:56:30Z"
 }
