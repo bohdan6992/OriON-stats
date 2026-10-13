@@ -1,11 +1,11 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-10-12T00:56:33Z",
+  "updated_at_utc": "2026-10-13T01:27:03Z",
   "host": "CY-7GT-PC-020",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
     "strategies_sha": "4f261e95d61c",
-    "strategies_updated": true,
+    "strategies_updated": false,
     "strategies_error": null,
     "results_repo": "https://github.com/bohdan6992/OriON-stats.git",
     "results_commit": null,
@@ -30,67 +30,67 @@
   "strategies": {
     "ArbitRage": {
       "ok": true,
-      "duration_sec": 2427.91890001297
+      "duration_sec": 2795.1806058883667
     },
     "CLO•continuum": {
       "ok": true,
-      "duration_sec": 385.2767724990845
+      "duration_sec": 431.9055173397064
     },
     "CLO•reversal": {
       "ok": true,
-      "duration_sec": 386.9065091609955
+      "duration_sec": 443.3145344257355
     },
     "DayTwo": {
       "ok": true,
-      "duration_sec": 825.3030958175659
+      "duration_sec": 951.715658903122
     },
     "OpenDoor": {
       "ok": true,
-      "duration_sec": 646.3228576183319
+      "duration_sec": 739.7416467666626
     },
     "OPG•continuum": {
       "ok": true,
-      "duration_sec": 299.3815014362335
+      "duration_sec": 338.63183331489563
     },
     "OPG•reversal": {
       "ok": true,
-      "duration_sec": 301.70940470695496
+      "duration_sec": 342.1952006816864
     },
     "PairFlux": {
       "ok": true,
-      "duration_sec": 610.7132596969604
+      "duration_sec": 704.6795842647552
     },
     "Pullback": {
       "ok": true,
-      "duration_sec": 1068.7354998588562
+      "duration_sec": 1252.5457797050476
     },
     "PumpDump": {
       "ok": true,
-      "duration_sec": 1315.3492486476898
+      "duration_sec": 1492.2581741809845
     },
     "SectorCorr": {
       "ok": true,
-      "duration_sec": 161.88476371765137
+      "duration_sec": 188.4869236946106
     },
     "VWAPBounce": {
       "ok": false,
-      "duration_sec": 2.3378384113311768,
-      "error": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\VWAPBounce.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_VWAPBounce_out.ipynb\n\nExecuting:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.\nExecuting notebook with kernel: python3\n\nExecuting:  12%|#2        | 1/8 [00:00<00:06,  1.08cell/s]\nExecuting:  25%|##5       | 2/8 [00:01<00:02,  2.12cell/s]\nExecuting:  62%|######2   | 5/8 [00:01<00:00,  5.43cell/s]\nExecuting:  62%|######2   | 5/8 [00:01<00:00,  3.53cell/s]\nTraceback (most recent call last):\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 194, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 87, in _run_code\n    exec(code, run_globals)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\__main__.py\", line 4, in <module>\n    papermill()\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\decorators.py\", line 33, in new_func\n    return f(get_current_context(), *args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\cli.py\", line 235, in papermill\n    execute_notebook(\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\execute.py\", line 131, in execute_notebook\n    raise_for_execution_e"
+      "duration_sec": 2.850196123123169,
+      "error": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\VWAPBounce.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_VWAPBounce_out.ipynb\n\nExecuting:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.\nExecuting notebook with kernel: python3\n\nExecuting:  12%|#2        | 1/8 [00:00<00:06,  1.02cell/s]\nExecuting:  25%|##5       | 2/8 [00:01<00:03,  1.99cell/s]\nExecuting:  62%|######2   | 5/8 [00:01<00:00,  5.02cell/s]\nExecuting:  62%|######2   | 5/8 [00:01<00:00,  3.09cell/s]\nTraceback (most recent call last):\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 194, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 87, in _run_code\n    exec(code, run_globals)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\__main__.py\", line 4, in <module>\n    papermill()\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\decorators.py\", line 33, in new_func\n    return f(get_current_context(), *args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\cli.py\", line 235, in papermill\n    execute_notebook(\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\execute.py\", line 131, in execute_notebook\n    raise_for_execution_e"
     }
   },
   "durations_sec": {
-    "cracen": 2157.2451927661896,
-    "total": 10592.414417743683
+    "cracen": 2737.8159289360046,
+    "total": 12422.281472206116
   },
   "fatal_error": null,
   "run": {
     "phase": "finished",
     "current_notebook": "VWAPBounce",
-    "started_at_utc": "2026-10-12T00:56:31Z",
-    "elapsed_sec": 10592.4,
-    "last_output": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\VWAPBounce.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_VWAPBounce_out.ipynb\n\nExecuting:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.\nExecuting notebook with kernel: python3\n\nExecuting:  12%|#2        | 1/8 [00:00<00:06,  1.08cell/s]\nExecuting:  25%|##5       | 2/8 [00:01<00:02,  2.12cell/s]\nExecuting:  62%|######2   | 5/8 [00:01<00:00,  5.43cell/s]\nExecuting:  62%|######2   | 5/8 [00:01<00:00,  3.53cell/s]\nTraceback (most recent call last):\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 194, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 87, in _run_code\n    exec(code, run_globals)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\__main__.py\", line 4, in <module>\n    papermill()\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\decorators.py\", line 33, in new_func\n    return f(get_current_context(), *args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\cli.py\", line 235, in papermill\n    execute_notebook(\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\execute.py\", line 131, in execute_notebook\n    raise_for_execution_e",
+    "started_at_utc": "2026-10-13T01:27:01Z",
+    "elapsed_sec": 12422.3,
+    "last_output": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\VWAPBounce.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_VWAPBounce_out.ipynb\n\nExecuting:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.\nExecuting notebook with kernel: python3\n\nExecuting:  12%|#2        | 1/8 [00:00<00:06,  1.02cell/s]\nExecuting:  25%|##5       | 2/8 [00:01<00:03,  1.99cell/s]\nExecuting:  62%|######2   | 5/8 [00:01<00:00,  5.02cell/s]\nExecuting:  62%|######2   | 5/8 [00:01<00:00,  3.09cell/s]\nTraceback (most recent call last):\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 194, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 87, in _run_code\n    exec(code, run_globals)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\__main__.py\", line 4, in <module>\n    papermill()\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\decorators.py\", line 33, in new_func\n    return f(get_current_context(), *args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\cli.py\", line 235, in papermill\n    execute_notebook(\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\execute.py\", line 131, in execute_notebook\n    raise_for_execution_e",
     "out_notebook": "C:\\datum-api-examples-main\\OriON\\status\\last_VWAPBounce_out.ipynb",
-    "out_notebook_size": 82323,
-    "out_notebook_mtime_utc": "2026-10-12T00:56:33Z"
+    "out_notebook_size": 82322,
+    "out_notebook_mtime_utc": "2026-10-13T01:27:03Z"
   }
 }
