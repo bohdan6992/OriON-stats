@@ -1,26 +1,31 @@
 {
   "strategy": "sector_corr",
-  "run_date": "2026-10-13",
-  "start_date": "2023-10-13",
-  "end_date": "2026-10-13",
+  "run_date": "2026-10-14",
+  "start_date": "2023-10-14",
+  "end_date": "2026-10-14",
   "lookback_years": 3,
   "min_days": 5,
   "value_col": "gap_div",
   "data_source": "datum",
-  "tickers_universe": 5408,
-  "gap_rows": 257199,
-  "report_rows": 22576,
-  "pairs": 31626,
-  "pairs_ok": 31389,
-  "tickers_with_corr": 126,
+  "tickers_universe": 5407,
+  "gap_rows": 3528324,
+  "report_rows": 47686,
+  "pairs": 1532296,
+  "pairs_ok": 1531027,
+  "tickers_with_corr": 3978,
   "min_abs_corr": 0.5,
-  "pairs_written": 4912,
-  "tickers_written": 126,
+  "pairs_written": 221229,
+  "tickers_written": 3976,
+  "lvl2_count": 20,
+  "fetch_failures": {
+    "reports": 79,
+    "gaps": 160
+  },
   "pairs_columns": [
     "ticker",
     "peer_ticker",
     "correlation"
   ],
   "pairs_direction": "correlation measured on the report days of `ticker`; not symmetric",
-  "generated_at_utc": "2026-10-14T01:06:14Z"
+  "generated_at_utc": "2026-10-15T01:24:03Z"
 }

@@ -1,25 +1,25 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-10-14T01:06:17Z**
+- Updated (UTC): **2026-10-15T01:24:08Z**
 - Host: **CY-7GT-PC-020**
 
 ## Run
 - phase: **finished**
 - notebook: `VWAPBounce`
-- started: `2026-10-14T01:06:15Z`
-- elapsed: **11176.1s**
+- started: `2026-10-15T01:24:06Z`
+- elapsed: **12247.2s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb`
-- out notebook size: `82324`
+- out notebook size: `82323`
 - last output: `Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
 
 Executing:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
 Executing notebook with kernel: python3
 
-Executing:  12%|#2        | 1/8 [00:00<00:06,  1.05cell/s]
-Executing:  25%|##5       | 2/8 [00:01<00:03,  1.99cell/s]
-Executing:  62%|######2   | 5/8 [00:01<00:00,  4.91cell/s]
-Executing:  62%|######2   | 5/8 [00:01<00:00,  3.09cell/s]
+Executing:  12%|#2        | 1/8 [00:00<00:06,  1.07cell/s]
+Executing:  25%|##5       | 2/8 [00:01<00:02,  2.07cell/s]
+Executing:  62%|######2   | 5/8 [00:01<00:00,  5.13cell/s]
+Executing:  62%|######2   | 5/8 [00:01<00:00,  3.37cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
@@ -44,8 +44,8 @@ Traceback (most recent call last):
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
-- strategies sha: `4f261e95d61c`
-- strategies updated: **False**
+- strategies sha: `9050f4b1d770`
+- strategies updated: **True**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
 - results subdir: ``
@@ -62,27 +62,27 @@ Traceback (most recent call last):
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (2462s)
-- ✅ **CLO•continuum** (378s)
-- ✅ **CLO•reversal** (374s)
-- ✅ **DayTwo** (845s)
-- ✅ **OpenDoor** (659s)
-- ✅ **OPG•continuum** (289s)
-- ✅ **OPG•reversal** (293s)
-- ✅ **PairFlux** (601s)
-- ✅ **Pullback** (1081s)
-- ✅ **PumpDump** (1307s)
-- ✅ **SectorCorr** (248s)
+- ✅ **ArbitRage** (2584s)
+- ✅ **CLO•continuum** (396s)
+- ✅ **CLO•reversal** (394s)
+- ✅ **DayTwo** (873s)
+- ✅ **OpenDoor** (684s)
+- ✅ **OPG•continuum** (306s)
+- ✅ **OPG•reversal** (292s)
+- ✅ **PairFlux** (653s)
+- ✅ **Pullback** (1130s)
+- ✅ **PumpDump** (1375s)
+- ✅ **SectorCorr** (596s)
 - ❌ **VWAPBounce** (2s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
 
 Executing:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
 Executing notebook with kernel: python3
 
-Executing:  12%|#2        | 1/8 [00:00<00:06,  1.05cell/s]
-Executing:  25%|##5       | 2/8 [00:01<00:03,  1.99cell/s]
-Executing:  62%|######2   | 5/8 [00:01<00:00,  4.91cell/s]
-Executing:  62%|######2   | 5/8 [00:01<00:00,  3.09cell/s]
+Executing:  12%|#2        | 1/8 [00:00<00:06,  1.07cell/s]
+Executing:  25%|##5       | 2/8 [00:01<00:02,  2.07cell/s]
+Executing:  62%|######2   | 5/8 [00:01<00:00,  5.13cell/s]
+Executing:  62%|######2   | 5/8 [00:01<00:00,  3.37cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
