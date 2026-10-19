@@ -1,25 +1,27 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-10-18T01:55:36Z**
+- Updated (UTC): **2026-10-19T01:11:45Z**
 - Host: **CY-7GT-PC-020**
 
 ## Run
 - phase: **finished**
 - notebook: `VWAPBounce`
-- started: `2026-10-18T01:55:34Z`
-- elapsed: **14135.5s**
+- started: `2026-10-19T01:11:43Z`
+- elapsed: **11504.1s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb`
-- out notebook size: `82323`
+- out notebook size: `91640`
 - last output: `Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
 
-Executing:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
+Executing:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
 Executing notebook with kernel: python3
 
-Executing:  12%|#2        | 1/8 [00:00<00:06,  1.07cell/s]
-Executing:  25%|##5       | 2/8 [00:01<00:02,  2.08cell/s]
-Executing:  62%|######2   | 5/8 [00:01<00:00,  5.20cell/s]
-Executing:  62%|######2   | 5/8 [00:01<00:00,  3.43cell/s]
+Executing:  11%|#1        | 1/9 [00:00<00:07,  1.05cell/s]
+Executing:  22%|##2       | 2/9 [00:01<00:03,  2.04cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:00,  4.94cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.29cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
@@ -35,17 +37,12 @@ Traceback (most recent call last):
     return ctx.invoke(self.callback, **ctx.params)
   File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 788, in invoke
     return __callback(*args, **kwargs)
-  File "C:\datum-api-examples-main\.env\lib\site-packages\click\decorators.py", line 33, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\cli.py", line 235, in papermill
-    execute_notebook(
-  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\execute.py", line 131, in execute_notebook
-    raise_for_execution_e`
+ `
 
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
-- strategies sha: `a168aa6e8af0`
-- strategies updated: **False**
+- strategies sha: `4a403c5d2f53`
+- strategies updated: **True**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
 - results subdir: ``
@@ -62,29 +59,31 @@ Traceback (most recent call last):
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (2963s)
-- ✅ **CLO•continuum** (455s)
-- ✅ **CLO•reversal** (453s)
-- ✅ **DayTwo** (986s)
-- ✅ **OpenDoor** (777s)
-- ✅ **OPG•continuum** (358s)
-- ✅ **OPG•fade** (357s)
-- ✅ **OPG•reversal** (350s)
-- ✅ **OPG•ride** (352s)
-- ✅ **PairFlux** (748s)
-- ✅ **Pullback** (1289s)
-- ✅ **PumpDump** (1579s)
-- ✅ **SectorCorr** (502s)
+- ✅ **ArbitRage** (2551s)
+- ✅ **CLO•continuum** (444s)
+- ✅ **CLO•reversal** (445s)
+- ✅ **DayTwo** (945s)
+- ✅ **OpenDoor** (737s)
+- ✅ **OPG•continuum** (335s)
+- ✅ **OPG•fade** (339s)
+- ✅ **OPG•reversal** (338s)
+- ✅ **OPG•ride** (338s)
+- ✅ **PairFlux** (715s)
+- ✅ **PullBack** (169s)
+- ✅ **PumpDump** (1479s)
+- ✅ **SectorCorr** (444s)
 - ❌ **VWAPBounce** (2s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
+C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
 
-Executing:   0%|          | 0/8 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
+Executing:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
 Executing notebook with kernel: python3
 
-Executing:  12%|#2        | 1/8 [00:00<00:06,  1.07cell/s]
-Executing:  25%|##5       | 2/8 [00:01<00:02,  2.08cell/s]
-Executing:  62%|######2   | 5/8 [00:01<00:00,  5.20cell/s]
-Executing:  62%|######2   | 5/8 [00:01<00:00,  3.43cell/s]
+Executing:  11%|#1        | 1/9 [00:00<00:07,  1.05cell/s]
+Executing:  22%|##2       | 2/9 [00:01<00:03,  2.04cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:00,  4.94cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.29cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
@@ -100,9 +99,4 @@ Traceback (most recent call last):
     return ctx.invoke(self.callback, **ctx.params)
   File "C:\datum-api-examples-main\.env\lib\site-packages\click\core.py", line 788, in invoke
     return __callback(*args, **kwargs)
-  File "C:\datum-api-examples-main\.env\lib\site-packages\click\decorators.py", line 33, in new_func
-    return f(get_current_context(), *args, **kwargs)
-  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\cli.py", line 235, in papermill
-    execute_notebook(
-  File "C:\datum-api-examples-main\.env\lib\site-packages\papermill\execute.py", line 131, in execute_notebook
-    raise_for_execution_e
+ 
