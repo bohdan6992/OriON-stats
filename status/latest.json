@@ -1,6 +1,6 @@
 {
   "job": "OriON daily",
-  "updated_at_utc": "2026-10-30T01:29:04Z",
+  "updated_at_utc": "2026-10-31T01:46:22Z",
   "host": "CY-7GT-PC-020",
   "github": {
     "strategies_repo": "https://github.com/bohdan6992/OriON-strategies.git",
@@ -30,83 +30,83 @@
   "strategies": {
     "ArbitRage": {
       "ok": true,
-      "duration_sec": 2743.255738258362
+      "duration_sec": 2999.9260759353638
     },
     "CLO•continuum": {
       "ok": true,
-      "duration_sec": 380.0480318069458
+      "duration_sec": 426.0487480163574
     },
     "CLO•reversal": {
       "ok": true,
-      "duration_sec": 385.515926361084
+      "duration_sec": 427.9261269569397
     },
     "DayTwo": {
       "ok": true,
-      "duration_sec": 940.3728184700012
+      "duration_sec": 1006.3687989711761
     },
     "LAUNCH•EVENING": {
       "ok": true,
-      "duration_sec": 100.54926061630249
+      "duration_sec": 110.36373662948608
     },
     "LAUNCH•MORNING": {
       "ok": true,
-      "duration_sec": 79.19845223426819
+      "duration_sec": 89.51407313346863
     },
     "OpenDoor": {
       "ok": true,
-      "duration_sec": 732.5026960372925
+      "duration_sec": 785.474173784256
     },
     "OPG•continuum": {
       "ok": true,
-      "duration_sec": 333.10547041893005
+      "duration_sec": 376.2574551105499
     },
     "OPG•fade": {
       "ok": true,
-      "duration_sec": 333.32435035705566
+      "duration_sec": 365.06917238235474
     },
     "OPG•reversal": {
       "ok": true,
-      "duration_sec": 332.0420436859131
+      "duration_sec": 370.8625032901764
     },
     "OPG•ride": {
       "ok": true,
-      "duration_sec": 337.7093012332916
+      "duration_sec": 369.36162090301514
     },
     "PairFlux": {
       "ok": true,
-      "duration_sec": 693.9212186336517
+      "duration_sec": 752.6748220920563
     },
     "PullBack": {
       "ok": true,
-      "duration_sec": 159.3946349620819
+      "duration_sec": 180.1505913734436
     },
     "PumpDump": {
       "ok": true,
-      "duration_sec": 1459.8515059947968
+      "duration_sec": 1587.7679817676544
     },
     "SectorCorr": {
       "ok": true,
-      "duration_sec": 456.4091217517853
+      "duration_sec": 459.85688281059265
     },
     "VWAPBounce": {
       "ok": false,
-      "duration_sec": 2.3518269062042236,
-      "error": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\VWAPBounce.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_VWAPBounce_out.ipynb\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n  validate(nb)\n\nExecuting:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.\nExecuting notebook with kernel: python3\n\nExecuting:  11%|#1        | 1/9 [00:00<00:07,  1.03cell/s]\nExecuting:  22%|##2       | 2/9 [00:01<00:03,  2.01cell/s]\nExecuting:  56%|#####5    | 5/9 [00:01<00:00,  5.09cell/s]\nExecuting:  56%|#####5    | 5/9 [00:01<00:01,  3.33cell/s]\nTraceback (most recent call last):\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 194, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 87, in _run_code\n    exec(code, run_globals)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\__main__.py\", line 4, in <module>\n    papermill()\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n "
+      "duration_sec": 2.3690743446350098,
+      "error": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\VWAPBounce.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_VWAPBounce_out.ipynb\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n  validate(nb)\n\nExecuting:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.\nExecuting notebook with kernel: python3\n\nExecuting:  11%|#1        | 1/9 [00:00<00:07,  1.04cell/s]\nExecuting:  22%|##2       | 2/9 [00:01<00:03,  2.06cell/s]\nExecuting:  56%|#####5    | 5/9 [00:01<00:00,  5.16cell/s]\nExecuting:  56%|#####5    | 5/9 [00:01<00:01,  3.40cell/s]\nTraceback (most recent call last):\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 194, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 87, in _run_code\n    exec(code, run_globals)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\__main__.py\", line 4, in <module>\n    papermill()\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n "
     }
   },
   "durations_sec": {
-    "cracen": 3072.2948229312897,
-    "total": 12542.77198600769
+    "cracen": 3267.89950966835,
+    "total": 13580.679664373398
   },
   "fatal_error": null,
   "run": {
     "phase": "finished",
     "current_notebook": "VWAPBounce",
-    "started_at_utc": "2026-10-30T01:29:02Z",
-    "elapsed_sec": 12542.8,
-    "last_output": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\VWAPBounce.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_VWAPBounce_out.ipynb\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n  validate(nb)\n\nExecuting:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.\nExecuting notebook with kernel: python3\n\nExecuting:  11%|#1        | 1/9 [00:00<00:07,  1.03cell/s]\nExecuting:  22%|##2       | 2/9 [00:01<00:03,  2.01cell/s]\nExecuting:  56%|#####5    | 5/9 [00:01<00:00,  5.09cell/s]\nExecuting:  56%|#####5    | 5/9 [00:01<00:01,  3.33cell/s]\nTraceback (most recent call last):\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 194, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 87, in _run_code\n    exec(code, run_globals)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\__main__.py\", line 4, in <module>\n    papermill()\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n ",
+    "started_at_utc": "2026-10-31T01:46:20Z",
+    "elapsed_sec": 13580.7,
+    "last_output": "Input Notebook:  C:\\datum-api-examples-main\\OriON\\STRATEGIES\\notebooks\\VWAPBounce.ipynb\nOutput Notebook: C:\\datum-api-examples-main\\OriON\\status\\last_VWAPBounce_out.ipynb\nC:\\datum-api-examples-main\\.env\\lib\\site-packages\\nbformat\\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n  validate(nb)\n\nExecuting:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.\nExecuting notebook with kernel: python3\n\nExecuting:  11%|#1        | 1/9 [00:00<00:07,  1.04cell/s]\nExecuting:  22%|##2       | 2/9 [00:01<00:03,  2.06cell/s]\nExecuting:  56%|#####5    | 5/9 [00:01<00:00,  5.16cell/s]\nExecuting:  56%|#####5    | 5/9 [00:01<00:01,  3.40cell/s]\nTraceback (most recent call last):\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 194, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"C:\\Program Files\\Python38\\lib\\runpy.py\", line 87, in _run_code\n    exec(code, run_globals)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\papermill\\__main__.py\", line 4, in <module>\n    papermill()\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1161, in __call__\n    return self.main(*args, **kwargs)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1082, in main\n    rv = self.invoke(ctx)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 1443, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"C:\\datum-api-examples-main\\.env\\lib\\site-packages\\click\\core.py\", line 788, in invoke\n    return __callback(*args, **kwargs)\n ",
     "out_notebook": "C:\\datum-api-examples-main\\OriON\\status\\last_VWAPBounce_out.ipynb",
-    "out_notebook_size": 91639,
-    "out_notebook_mtime_utc": "2026-10-30T01:29:04Z"
+    "out_notebook_size": 91638,
+    "out_notebook_mtime_utc": "2026-10-31T01:46:22Z"
   }
 }
