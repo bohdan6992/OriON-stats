@@ -1,15 +1,15 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-11-04T01:19:28Z**
+- Updated (UTC): **2026-11-05T01:46:06Z**
 - Host: **CY-7GT-PC-020**
 
 ## Run
 - phase: **finished**
 - notebook: `VWAPBounce`
-- started: `2026-11-04T01:19:26Z`
-- elapsed: **11966.5s**
+- started: `2026-11-05T01:46:04Z`
+- elapsed: **13564.6s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb`
-- out notebook size: `91638`
+- out notebook size: `91640`
 - last output: `Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
 C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
@@ -19,9 +19,9 @@ Executing:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have 
 Executing notebook with kernel: python3
 
 Executing:  11%|#1        | 1/9 [00:00<00:07,  1.06cell/s]
-Executing:  22%|##2       | 2/9 [00:01<00:03,  2.02cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.00cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.32cell/s]
+Executing:  22%|##2       | 2/9 [00:01<00:03,  2.06cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.17cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.39cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
@@ -59,21 +59,21 @@ Traceback (most recent call last):
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (2712s)
-- ✅ **CLO•continuum** (344s)
-- ✅ **CLO•reversal** (332s)
-- ✅ **DayTwo** (880s)
-- ✅ **LAUNCH•EVENING** (99s)
-- ✅ **LAUNCH•MORNING** (81s)
-- ✅ **OpenDoor** (684s)
-- ✅ **OPG•continuum** (291s)
-- ✅ **OPG•fade** (294s)
-- ✅ **OPG•reversal** (273s)
-- ✅ **OPG•ride** (310s)
-- ✅ **PairFlux** (634s)
-- ✅ **PullBack** (156s)
-- ✅ **PumpDump** (1366s)
-- ✅ **SectorCorr** (446s)
+- ✅ **ArbitRage** (2955s)
+- ✅ **CLO•continuum** (423s)
+- ✅ **CLO•reversal** (419s)
+- ✅ **DayTwo** (1003s)
+- ✅ **LAUNCH•EVENING** (112s)
+- ✅ **LAUNCH•MORNING** (89s)
+- ✅ **OpenDoor** (789s)
+- ✅ **OPG•continuum** (360s)
+- ✅ **OPG•fade** (364s)
+- ✅ **OPG•reversal** (357s)
+- ✅ **OPG•ride** (361s)
+- ✅ **PairFlux** (734s)
+- ✅ **PullBack** (168s)
+- ✅ **PumpDump** (1569s)
+- ✅ **SectorCorr** (485s)
 - ❌ **VWAPBounce** (2s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
 C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
@@ -83,9 +83,9 @@ Executing:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have 
 Executing notebook with kernel: python3
 
 Executing:  11%|#1        | 1/9 [00:00<00:07,  1.06cell/s]
-Executing:  22%|##2       | 2/9 [00:01<00:03,  2.02cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.00cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.32cell/s]
+Executing:  22%|##2       | 2/9 [00:01<00:03,  2.06cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.17cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.39cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
