@@ -1,15 +1,15 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-11-05T01:46:06Z**
+- Updated (UTC): **2026-11-06T09:41:19Z**
 - Host: **CY-7GT-PC-020**
 
 ## Run
 - phase: **finished**
 - notebook: `VWAPBounce`
-- started: `2026-11-05T01:46:04Z`
-- elapsed: **13564.6s**
+- started: `2026-11-06T09:41:17Z`
+- elapsed: **12160.8s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb`
-- out notebook size: `91640`
+- out notebook size: `91639`
 - last output: `Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
 C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
@@ -18,10 +18,10 @@ C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: Missi
 Executing:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
 Executing notebook with kernel: python3
 
-Executing:  11%|#1        | 1/9 [00:00<00:07,  1.06cell/s]
-Executing:  22%|##2       | 2/9 [00:01<00:03,  2.06cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.17cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.39cell/s]
+Executing:  11%|#1        | 1/9 [00:00<00:07,  1.07cell/s]
+Executing:  22%|##2       | 2/9 [00:01<00:03,  2.09cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.31cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.43cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
@@ -59,21 +59,21 @@ Traceback (most recent call last):
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (2955s)
-- ✅ **CLO•continuum** (423s)
-- ✅ **CLO•reversal** (419s)
-- ✅ **DayTwo** (1003s)
-- ✅ **LAUNCH•EVENING** (112s)
-- ✅ **LAUNCH•MORNING** (89s)
-- ✅ **OpenDoor** (789s)
-- ✅ **OPG•continuum** (360s)
-- ✅ **OPG•fade** (364s)
-- ✅ **OPG•reversal** (357s)
-- ✅ **OPG•ride** (361s)
-- ✅ **PairFlux** (734s)
-- ✅ **PullBack** (168s)
-- ✅ **PumpDump** (1569s)
-- ✅ **SectorCorr** (485s)
+- ✅ **ArbitRage** (2616s)
+- ✅ **CLO•continuum** (373s)
+- ✅ **CLO•reversal** (367s)
+- ✅ **DayTwo** (898s)
+- ✅ **LAUNCH•EVENING** (97s)
+- ✅ **LAUNCH•MORNING** (80s)
+- ✅ **OpenDoor** (703s)
+- ✅ **OPG•continuum** (318s)
+- ✅ **OPG•fade** (324s)
+- ✅ **OPG•reversal** (320s)
+- ✅ **OPG•ride** (319s)
+- ✅ **PairFlux** (725s)
+- ✅ **PullBack** (149s)
+- ✅ **PumpDump** (1416s)
+- ✅ **SectorCorr** (449s)
 - ❌ **VWAPBounce** (2s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
 C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
@@ -82,10 +82,10 @@ C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: Missi
 Executing:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
 Executing notebook with kernel: python3
 
-Executing:  11%|#1        | 1/9 [00:00<00:07,  1.06cell/s]
-Executing:  22%|##2       | 2/9 [00:01<00:03,  2.06cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.17cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.39cell/s]
+Executing:  11%|#1        | 1/9 [00:00<00:07,  1.07cell/s]
+Executing:  22%|##2       | 2/9 [00:01<00:03,  2.09cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.31cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.43cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
