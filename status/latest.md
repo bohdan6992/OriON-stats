@@ -1,15 +1,15 @@
 # OriON Daily Status
 
-- Updated (UTC): **2026-11-09T01:38:17Z**
+- Updated (UTC): **2026-11-10T01:38:56Z**
 - Host: **CY-7GT-PC-020**
 
 ## Run
 - phase: **finished**
 - notebook: `VWAPBounce`
-- started: `2026-11-09T01:38:15Z`
-- elapsed: **13095.9s**
+- started: `2026-11-10T01:38:54Z`
+- elapsed: **13134.6s**
 - out notebook: `C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb`
-- out notebook size: `91640`
+- out notebook size: `91638`
 - last output: `Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
 C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
@@ -18,10 +18,10 @@ C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: Missi
 Executing:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
 Executing notebook with kernel: python3
 
-Executing:  11%|#1        | 1/9 [00:00<00:07,  1.07cell/s]
-Executing:  22%|##2       | 2/9 [00:01<00:03,  2.09cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.11cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.40cell/s]
+Executing:  11%|#1        | 1/9 [00:00<00:07,  1.05cell/s]
+Executing:  22%|##2       | 2/9 [00:01<00:03,  2.04cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.13cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.37cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
@@ -42,7 +42,7 @@ Traceback (most recent call last):
 ## GitHub
 - strategies repo: `https://github.com/bohdan6992/OriON-strategies.git`
 - strategies sha: `13dee63a87b9`
-- strategies updated: **True**
+- strategies updated: **False**
 - results repo: `https://github.com/bohdan6992/OriON-stats.git`
 - results layout: `root`
 - results subdir: ``
@@ -59,21 +59,21 @@ Traceback (most recent call last):
 - final: `C:\datum-api-examples-main\OriON\CRACEN\final.parquet`
 
 ## Strategies
-- ✅ **ArbitRage** (2675s)
-- ✅ **CLO•continuum** (416s)
-- ✅ **CLO•reversal** (409s)
-- ✅ **DayTwo** (970s)
-- ✅ **LAUNCH•EVENING** (104s)
-- ✅ **LAUNCH•MORNING** (84s)
-- ✅ **OpenDoor** (760s)
-- ✅ **OPG•continuum** (360s)
-- ✅ **OPG•fade** (360s)
-- ✅ **OPG•reversal** (342s)
-- ✅ **OPG•ride** (354s)
-- ✅ **PairFlux** (802s)
-- ✅ **PullBack** (171s)
-- ✅ **PumpDump** (1558s)
-- ✅ **SectorCorr** (477s)
+- ✅ **ArbitRage** (2750s)
+- ✅ **CLO•continuum** (420s)
+- ✅ **CLO•reversal** (414s)
+- ✅ **DayTwo** (1009s)
+- ✅ **LAUNCH•EVENING** (110s)
+- ✅ **LAUNCH•MORNING** (88s)
+- ✅ **OpenDoor** (790s)
+- ✅ **OPG•continuum** (350s)
+- ✅ **OPG•fade** (363s)
+- ✅ **OPG•reversal** (348s)
+- ✅ **OPG•ride** (352s)
+- ✅ **PairFlux** (831s)
+- ✅ **PullBack** (174s)
+- ✅ **PumpDump** (1582s)
+- ✅ **SectorCorr** (481s)
 - ❌ **VWAPBounce** (2s) — Input Notebook:  C:\datum-api-examples-main\OriON\STRATEGIES\notebooks\VWAPBounce.ipynb
 Output Notebook: C:\datum-api-examples-main\OriON\status\last_VWAPBounce_out.ipynb
 C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
@@ -82,10 +82,10 @@ C:\datum-api-examples-main\.env\lib\site-packages\nbformat\__init__.py:96: Missi
 Executing:   0%|          | 0/9 [00:00<?, ?cell/s]WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
 Executing notebook with kernel: python3
 
-Executing:  11%|#1        | 1/9 [00:00<00:07,  1.07cell/s]
-Executing:  22%|##2       | 2/9 [00:01<00:03,  2.09cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.11cell/s]
-Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.40cell/s]
+Executing:  11%|#1        | 1/9 [00:00<00:07,  1.05cell/s]
+Executing:  22%|##2       | 2/9 [00:01<00:03,  2.04cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:00,  5.13cell/s]
+Executing:  56%|#####5    | 5/9 [00:01<00:01,  3.37cell/s]
 Traceback (most recent call last):
   File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
