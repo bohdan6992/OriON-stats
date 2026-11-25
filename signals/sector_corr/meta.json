@@ -7,14 +7,14 @@
   "min_days": 5,
   "value_col": "gap_div",
   "data_source": "datum",
-  "tickers_universe": 5381,
-  "gap_rows": 3633851,
-  "report_rows": 48333,
-  "pairs": 1665689,
-  "pairs_ok": 1664462,
+  "tickers_universe": 5378,
+  "gap_rows": 3637387,
+  "report_rows": 48325,
+  "pairs": 1664527,
+  "pairs_ok": 1663303,
   "tickers_with_corr": 4154,
   "min_abs_corr": 0.5,
-  "pairs_written": 244220,
+  "pairs_written": 244002,
   "tickers_written": 4152,
   "lvl2_count": 20,
   "fetch_failures": {
@@ -27,5 +27,5 @@
     "correlation"
   ],
   "pairs_direction": "correlation measured on the report days of `ticker`; not symmetric",
-  "generated_at_utc": "2026-11-24T22:27:10Z"
+  "generated_at_utc": "2026-11-25T21:59:17Z"
 }
