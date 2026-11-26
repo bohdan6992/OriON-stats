@@ -7,34 +7,34 @@
   ],
   "k_sigma": 0.5,
   "sigma_pct": {
-   "SPY": 0.691141,
-   "QQQ": 0.978268
+   "SPY": 0.697795,
+   "QQQ": 0.989193
   },
   "band_pct": {
-   "SPY": 0.34557,
-   "QQQ": 0.489134
+   "SPY": 0.348897,
+   "QQQ": 0.494597
   },
   "rule": "UP when BOTH clear +k*sigma, DOWN when BOTH clear -k*sigma, FLAT when BOTH are inside the band, MIXED when they disagree, UNKNOWN when either has no usable print. UNKNOWN is not FLAT.",
   "reference": "Stack% at 09:30 read as-is: prev_close rolls at 16:01, so at the open it IS the previous regular-session close and Stack% is already the 16:00 -> 09:30 move. No subtraction.",
   "keyed_by": "the SESSION the window ends in - the label needs no offset on the consumer side",
   "alt_window": "16:00 -> 00:00, in labels_to_midnight, keyed the same way; use it for a class that TRADES 21:00 -> 09:30, where the main label would overlap the trade's own window",
   "alt_sigma_pct": {
-   "SPY": 0.526748,
-   "QQQ": 0.705158
+   "SPY": 0.524756,
+   "QQQ": 0.692159
   },
-  "days": 479,
+  "days": 480,
   "counts": {
-   "DOWN": 87,
-   "FLAT": 224,
+   "DOWN": 88,
+   "FLAT": 227,
    "UP": 105,
-   "MIXED": 63
+   "MIXED": 60
   },
   "counts_to_midnight": {
    "UNKNOWN": 108,
-   "FLAT": 200,
-   "MIXED": 71,
-   "UP": 56,
-   "DOWN": 44
+   "FLAT": 196,
+   "MIXED": 73,
+   "UP": 57,
+   "DOWN": 46
   },
   "source": "final.parquet"
  },
@@ -136,7 +136,7 @@
   "2025-05-15": "FLAT",
   "2025-05-16": "FLAT",
   "2025-05-19": "DOWN",
-  "2025-05-20": "MIXED",
+  "2025-05-20": "FLAT",
   "2025-05-21": "DOWN",
   "2025-05-22": "FLAT",
   "2025-05-23": "DOWN",
@@ -356,7 +356,7 @@
   "2026-04-01": "UP",
   "2026-04-02": "DOWN",
   "2026-04-06": "FLAT",
-  "2026-04-07": "MIXED",
+  "2026-04-07": "FLAT",
   "2026-04-08": "UP",
   "2026-04-09": "FLAT",
   "2026-04-10": "FLAT",
@@ -484,7 +484,7 @@
   "2026-10-05": "FLAT",
   "2026-10-06": "UP",
   "2026-10-07": "DOWN",
-  "2026-10-08": "MIXED",
+  "2026-10-08": "FLAT",
   "2026-10-09": "MIXED",
   "2026-10-12": "FLAT",
   "2026-10-13": "MIXED",
@@ -517,7 +517,8 @@
   "2026-11-19": "UP",
   "2026-11-20": "MIXED",
   "2026-11-23": "UP",
-  "2026-11-24": "DOWN"
+  "2026-11-24": "DOWN",
+  "2026-11-25": "DOWN"
  },
  "labels_to_midnight": {
   "2024-12-27": "UNKNOWN",
@@ -800,7 +801,7 @@
   "2026-02-06": "DOWN",
   "2026-02-09": "UNKNOWN",
   "2026-02-10": "FLAT",
-  "2026-02-11": "FLAT",
+  "2026-02-11": "MIXED",
   "2026-02-12": "MIXED",
   "2026-02-13": "FLAT",
   "2026-02-17": "UNKNOWN",
@@ -823,7 +824,7 @@
   "2026-03-12": "DOWN",
   "2026-03-13": "MIXED",
   "2026-03-16": "UNKNOWN",
-  "2026-03-17": "MIXED",
+  "2026-03-17": "DOWN",
   "2026-03-18": "UP",
   "2026-03-19": "FLAT",
   "2026-03-20": "FLAT",
@@ -862,12 +863,12 @@
   "2026-05-07": "FLAT",
   "2026-05-08": "FLAT",
   "2026-05-11": "UNKNOWN",
-  "2026-05-12": "FLAT",
+  "2026-05-12": "MIXED",
   "2026-05-13": "FLAT",
   "2026-05-14": "FLAT",
   "2026-05-15": "MIXED",
   "2026-05-18": "UNKNOWN",
-  "2026-05-19": "FLAT",
+  "2026-05-19": "MIXED",
   "2026-05-20": "FLAT",
   "2026-05-21": "FLAT",
   "2026-05-22": "UP",
@@ -919,7 +920,7 @@
   "2026-07-30": "UP",
   "2026-07-31": "UP",
   "2026-08-03": "UNKNOWN",
-  "2026-08-04": "MIXED",
+  "2026-08-04": "UP",
   "2026-08-05": "MIXED",
   "2026-08-06": "FLAT",
   "2026-08-07": "FLAT",
@@ -958,7 +959,7 @@
   "2026-09-24": "FLAT",
   "2026-09-25": "FLAT",
   "2026-09-28": "UNKNOWN",
-  "2026-09-29": "FLAT",
+  "2026-09-29": "MIXED",
   "2026-09-30": "FLAT",
   "2026-10-01": "UP",
   "2026-10-02": "MIXED",
@@ -998,6 +999,7 @@
   "2026-11-19": "UP",
   "2026-11-20": "DOWN",
   "2026-11-23": "UNKNOWN",
-  "2026-11-24": "FLAT"
+  "2026-11-24": "FLAT",
+  "2026-11-25": "DOWN"
  }
 }
