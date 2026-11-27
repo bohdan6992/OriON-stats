@@ -7,39 +7,38 @@
   ],
   "k_sigma": 0.5,
   "sigma_pct": {
-   "SPY": 0.697795,
-   "QQQ": 0.989193
+   "SPY": 0.697849,
+   "QQQ": 0.98967
   },
   "band_pct": {
-   "SPY": 0.348897,
-   "QQQ": 0.494597
+   "SPY": 0.348924,
+   "QQQ": 0.494835
   },
   "rule": "UP when BOTH clear +k*sigma, DOWN when BOTH clear -k*sigma, FLAT when BOTH are inside the band, MIXED when they disagree, UNKNOWN when either has no usable print. UNKNOWN is not FLAT.",
   "reference": "Stack% at 09:30 read as-is: prev_close rolls at 16:01, so at the open it IS the previous regular-session close and Stack% is already the 16:00 -> 09:30 move. No subtraction.",
   "keyed_by": "the SESSION the window ends in - the label needs no offset on the consumer side",
   "alt_window": "16:00 -> 00:00, in labels_to_midnight, keyed the same way; use it for a class that TRADES 21:00 -> 09:30, where the main label would overlap the trade's own window",
   "alt_sigma_pct": {
-   "SPY": 0.524756,
-   "QQQ": 0.692159
+   "SPY": 0.525233,
+   "QQQ": 0.69279
   },
-  "days": 480,
+  "days": 479,
   "counts": {
-   "DOWN": 88,
+   "DOWN": 87,
    "FLAT": 227,
    "UP": 105,
    "MIXED": 60
   },
   "counts_to_midnight": {
-   "UNKNOWN": 108,
-   "FLAT": 196,
-   "MIXED": 73,
+   "UNKNOWN": 107,
+   "FLAT": 197,
+   "MIXED": 72,
    "UP": 57,
    "DOWN": 46
   },
   "source": "final.parquet"
  },
  "labels": {
-  "2024-12-27": "DOWN",
   "2024-12-30": "DOWN",
   "2024-12-31": "FLAT",
   "2025-01-02": "UP",
@@ -521,7 +520,6 @@
   "2026-11-25": "DOWN"
  },
  "labels_to_midnight": {
-  "2024-12-27": "UNKNOWN",
   "2024-12-30": "UNKNOWN",
   "2024-12-31": "FLAT",
   "2025-01-02": "UNKNOWN",
@@ -863,7 +861,7 @@
   "2026-05-07": "FLAT",
   "2026-05-08": "FLAT",
   "2026-05-11": "UNKNOWN",
-  "2026-05-12": "MIXED",
+  "2026-05-12": "FLAT",
   "2026-05-13": "FLAT",
   "2026-05-14": "FLAT",
   "2026-05-15": "MIXED",
